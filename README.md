@@ -32,3 +32,12 @@ Deploy and remove bucket objects that no longer exist locally:
 
 The deploy script excludes repo/dev files such as `.git`, `tools`, server logs,
 `README.md`, `.gitignore`, and the old `test.html`/`test1.html` pages.
+
+After deploying, the script sets HTML files to `Cache-Control: no-cache,
+max-age=0, must-revalidate`. If Cloudflare still shows stale content at
+`https://www.waterworksdg.com/`, purge Cloudflare's cache for both:
+
+```text
+https://www.waterworksdg.com/
+https://www.waterworksdg.com/index.html
+```

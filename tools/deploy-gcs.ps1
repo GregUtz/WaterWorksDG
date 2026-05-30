@@ -51,7 +51,15 @@ if (-not $UseGsutil -and (Test-Command "gcloud")) {
     }
 
     & gcloud @args
-    exit $LASTEXITCODE
+    $exitCode = $LASTEXITCODE
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on HTML files."
+        & gcloud storage objects update "$Bucket/*.html" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
+    exit $exitCode
 }
 
 if (Test-Command "gsutil") {
@@ -74,7 +82,15 @@ if (Test-Command "gsutil") {
     $args += @(".", $Bucket)
 
     & gsutil @args
-    exit $LASTEXITCODE
+    $exitCode = $LASTEXITCODE
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on HTML files."
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/*.html"
+        $exitCode = $LASTEXITCODE
+    }
+
+    exit $exitCode
 }
 
 $message = @"
