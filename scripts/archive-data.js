@@ -814,64 +814,59 @@
 			"masterUrl": "",
 			"weeks": [
 				{
-					"date": "2020-07-09",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-bw1w",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-09 UDisc event"
-				},
-				{
 					"date": "2020-07-16",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-pEKi",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-16 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-pEKi/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-16 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-07-23",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-thez",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-23 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-thez/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-23 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-07-30",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-y6Eg",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-30 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-y6Eg/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-07-30 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-08-06",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-IU9v",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-06 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-IU9v/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-06 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-08-13",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-lJyy",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-13 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-lJyy/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-13 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-08-20",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-YC9D",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-20 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-YC9D/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-20 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-08-27",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-8WDn",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-27 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-8WDn/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-08-27 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-09-03",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-H0Yx",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-03 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-H0Yx/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-03 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-09-10",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-wUo2",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-10 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-wUo2/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-10 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-09-17",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-w7L9",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-17 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-w7L9/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-17 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2020-09-24",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-t8og",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-24 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-t8og/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2020-09-24 UDisc round 1 leaderboard"
 				}
 			]
 		},
@@ -881,113 +876,113 @@
 			"weeks": [
 				{
 					"date": "2021-04-08",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-V95t",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-V95t/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-04-15",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-2xnf",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-15 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-2xnf/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-15 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-04-22",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-0sSK",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-0sSK/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-04-29",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-8HXe",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-8HXe/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-04-29 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-05-06",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-mYIy",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-05-06 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-mYIy/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-05-06 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-05-13",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-Y0Gn",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-05-13 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-Y0Gn/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-05-13 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-06-03",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-nCKC",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-03 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-nCKC/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-03 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-06-10",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-G1tX",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-10 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-G1tX/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-10 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-06-17",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-6Syi",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-17 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-6Syi/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-17 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-06-24",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-6g42",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-24 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-6g42/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-06-24 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-07-01",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-ZkCP",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-01 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-ZkCP/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-01 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-07-08",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-A5Ak",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-A5Ak/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-07-22",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-V57o",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-V57o/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-07-29",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-XDBJ",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-XDBJ/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-07-29 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-08-05",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-imOD",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-05 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-imOD/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-05 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-08-12",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-VxYK",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-12 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-VxYK/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-12 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-08-19",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-9Pva",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-19 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-9Pva/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-19 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-08-26",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-IpCA",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-26 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-IpCA/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-08-26 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-09-02",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-1tvH",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-02 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-1tvH/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-02 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-09-09",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-gpke",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-09 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-gpke/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-09 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-09-16",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-n5Yh",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-16 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-n5Yh/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-16 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2021-09-30",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-B6B5",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-30 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-B6B5/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2021-09-30 UDisc round 1 leaderboard"
 				}
 			]
 		},
@@ -997,128 +992,128 @@
 			"weeks": [
 				{
 					"date": "2022-04-07",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-ltDt",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-07 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-ltDt/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-07 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-04-14",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-jVQE",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-14 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-jVQE/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-14 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-04-21",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-KvaD",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-21 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-KvaD/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-21 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-04-28",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-AuqU",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-28 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-AuqU/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-04-28 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-05-05",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-MCer",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-05 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-MCer/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-05 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-05-12",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-eHub",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-12 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-eHub/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-12 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-05-19",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-yQMn",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-19 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-yQMn/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-19 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-05-26",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-EXWB",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-26 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-EXWB/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-05-26 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-06-02",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tGmt",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-02 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tGmt/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-02 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-06-09",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-8mpZ",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-09 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-8mpZ/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-09 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-06-16",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-Qhkk",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-16 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-Qhkk/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-16 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-06-23",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-waterworks-league-rspE",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-23 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-waterworks-league-rspE/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-23 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-06-30",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-RnAI",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-30 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-RnAI/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-06-30 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-07-07",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-CRRs",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-07 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-CRRs/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-07 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-07-14",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-m8hY",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-14 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-m8hY/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-14 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-07-21",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-xgKW",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-21 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-xgKW/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-21 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-07-28",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-CK4u",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-28 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-CK4u/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-07-28 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-08-04",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-GN1K",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-04 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-GN1K/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-04 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-08-11",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-QoBg",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-11 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-QoBg/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-11 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-08-18",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-mx9J",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-18 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-mx9J/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-08-18 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-09-01",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-waterworks-league-A136",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-01 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-waterworks-league-A136/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-01 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-09-08",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-RfLq",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-RfLq/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-09-15",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-9fAM",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-15 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-9fAM/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-15 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-09-22",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tUFb",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tUFb/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2022-09-29",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tW8B",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-league-tW8B/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2022-09-29 UDisc round 1 leaderboard"
 				}
 			]
 		},
@@ -1128,128 +1123,128 @@
 			"weeks": [
 				{
 					"date": "2023-04-06",
-					"url": "https://udisc.com/events/2023-kcdg-summer-league-water-works-thursdays-AoMO",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-06 UDisc event"
+					"url": "https://udisc.com/events/2023-kcdg-summer-league-water-works-thursdays-AoMO/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-06 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-04-13",
-					"url": "https://udisc.com/events/2023-kcdg-summer-league-water-works-thursdays-X1kH",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-13 UDisc event"
+					"url": "https://udisc.com/events/2023-kcdg-summer-league-water-works-thursdays-X1kH/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-13 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-04-20",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-mt28",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-20 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-mt28/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-20 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-04-27",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-uxvP",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-27 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-uxvP/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-04-27 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-05-04",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Wtq6",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-04 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Wtq6/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-04 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-05-11",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-mLMH",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-11 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-mLMH/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-11 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-05-18",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XRi4",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-18 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XRi4/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-18 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-05-25",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-AopP",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-25 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-AopP/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-05-25 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-06-01",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-UKUp",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-01 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-UKUp/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-01 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-06-08",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-KIfy",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-KIfy/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-06-15",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-gFxp",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-15 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-gFxp/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-15 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-06-22",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-vV4P",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-vV4P/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-06-29",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-nR81",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-nR81/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-06-29 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-07-06",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-KYCm",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-06 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-KYCm/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-06 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-07-13",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-iN7b",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-13 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-iN7b/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-13 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-07-20",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-9QGN",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-20 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-9QGN/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-20 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-07-27",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XTbN",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-27 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XTbN/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-07-27 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-08-10",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Dh5A",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-10 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Dh5A/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-10 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-08-17",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-3kAN",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-17 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-3kAN/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-17 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-08-24",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-gJ8L",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-24 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-gJ8L/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-24 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-08-31",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-IWlQ",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-31 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-IWlQ/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-08-31 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-09-07",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-jxlP",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-07 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-jxlP/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-07 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-09-14",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-SLwv",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-14 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-SLwv/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-14 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-09-21",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-diTa",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-21 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-diTa/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-21 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2023-09-28",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-ugVQ",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-28 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-ugVQ/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2023-09-28 UDisc round 1 leaderboard"
 				}
 			]
 		},
@@ -1259,133 +1254,133 @@
 			"weeks": [
 				{
 					"date": "2024-04-04",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-IYM2",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-04 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-IYM2/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-04 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-04-11",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-eKGD",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-11 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-eKGD/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-11 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-04-18",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XHQ6",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-18 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-XHQ6/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-18 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-04-25",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-zTqK",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-25 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-zTqK/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-04-25 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-05-02",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-z4uO",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-02 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-z4uO/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-02 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-05-09",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-td8o",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-09 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-td8o/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-09 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-05-16",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Sr0B",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-16 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Sr0B/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-16 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-05-23",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-8mPw",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-23 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-8mPw/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-23 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-05-30",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Lhvk",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-30 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Lhvk/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-05-30 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-06-06",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-hAO2",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-06 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-hAO2/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-06 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-06-13",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Ocnv",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-13 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Ocnv/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-13 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-06-20",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-WlFV",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-20 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-WlFV/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-20 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-06-27",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-tD2p",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-27 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-tD2p/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-06-27 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-07-04",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-WP5e",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-04 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-WP5e/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-04 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-07-11",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-xsJm",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-11 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-xsJm/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-11 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-07-18",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-RmPl",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-18 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-RmPl/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-18 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-07-25",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-02GE",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-25 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-02GE/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-07-25 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-08-01",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-kFJM",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-01 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-kFJM/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-01 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-08-08",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Lbou",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Lbou/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-08-15",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-7AKv",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-15 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-7AKv/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-15 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-08-22",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-YKjv",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-YKjv/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-08-29",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-yEfY",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-yEfY/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-08-29 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-09-05",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-MvfN",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-05 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-MvfN/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-05 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-09-12",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Vu9l",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-12 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-Vu9l/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-12 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-09-19",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-UjBm",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-19 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-UjBm/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-19 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2024-09-26",
-					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-6Kal",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-26 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-leagues-water-works-thursdays-6Kal/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2024-09-26 UDisc round 1 leaderboard"
 				}
 			]
 		},
@@ -1395,133 +1390,133 @@
 			"weeks": [
 				{
 					"date": "2025-04-03",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-hpPeBS",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-03 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-hpPeBS/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-03 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-04-10",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-XaUfJ5",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-10 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-XaUfJ5/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-10 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-04-17",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Osd0PA",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-17 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Osd0PA/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-17 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-04-24",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-P331SK",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-24 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-P331SK/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-04-24 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-05-01",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-9bHaZM",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-01 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-9bHaZM/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-01 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-05-08",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-nHf73R",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-08 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-nHf73R/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-08 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-05-15",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-4DdXFS",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-15 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-4DdXFS/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-15 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-05-22",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-jeXa9w",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-22 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-jeXa9w/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-22 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-05-29",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-dF6V8k",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-29 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-dF6V8k/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-05-29 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-06-05",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-6RWwHj",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-05 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-6RWwHj/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-05 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-06-12",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-xE2GPS",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-12 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-xE2GPS/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-12 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-06-19",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-jIJs2j",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-19 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-jIJs2j/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-19 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-06-26",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-UlWLe1",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-26 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-UlWLe1/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-06-26 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-07-03",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Dmx1Xn",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-03 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Dmx1Xn/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-03 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-07-10",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-WNLqEj",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-10 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-WNLqEj/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-10 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-07-17",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-IcPxBg",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-17 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-IcPxBg/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-17 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-07-24",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-ToaEJa",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-24 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-ToaEJa/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-24 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-07-31",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-7qT2ky",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-31 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-7qT2ky/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-07-31 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-08-07",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-XyagXg",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-07 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-XyagXg/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-07 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-08-14",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-8jRn0e",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-14 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-8jRn0e/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-14 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-08-21",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-k6ovqB",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-21 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-k6ovqB/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-21 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-08-28",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-JE9RWJ",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-28 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-JE9RWJ/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-08-28 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-09-04",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-35EApD",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-04 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-35EApD/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-04 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-09-11",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-VADd4z",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-11 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-VADd4z/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-11 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-09-18",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-yamERj",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-18 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-yamERj/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-18 UDisc round 1 leaderboard"
 				},
 				{
 					"date": "2025-09-25",
-					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-3HmCAy",
-					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-25 UDisc event"
+					"url": "https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-3HmCAy/leaderboard?round=1",
+					"sourceLabel": "KCDG Summer Weeklies - WaterWorks Thursdays 2025-09-25 UDisc round 1 leaderboard"
 				}
 			]
 		}
@@ -1574,7 +1569,7 @@
 			return 'The shared season folder is linked, but Google did not expose individual weekly files publicly yet.';
 		}
 		if(scoreSource === 'UDisc'){
-			return 'Weekly links point to UDisc event pages when available, with shared Drive exports used for seasons still being backfilled. Missing weeks remain marked pending.';
+			return 'Weekly links point to UDisc event pages or downloadable scorecard exports when available. Missing weeks remain marked pending.';
 		}
 		return 'Weekly scorecard links are populated from the shared Google Drive archive. Missing weeks remain marked pending.';
 	}

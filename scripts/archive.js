@@ -42,17 +42,17 @@
 
 	function renderSeasonMenu(years, currentYear){
 		return years.map(function(year){
-			var active = year === currentYear ? ' class="active-item"' : '';
-			return '<a href="' + year + '.html"' + active + '>' + year + '</a>';
+			var classes = year === currentYear ? 'default-link active-item' : 'default-link';
+			return '<a href="' + year + '.html" class="' + classes + '">' + year + '</a>';
 		}).join('');
 	}
 
 	function renderSeasonNav(years, currentYear){
 		return years.map(function(year){
 			if(year === currentYear){
-				return '<a href="' + year + '.html" class="is-active">' + year + '</a>';
+				return '<a href="' + year + '.html" class="default-link is-active">' + year + '</a>';
 			}
-			return '<a href="' + year + '.html">' + year + '</a>';
+			return '<a href="' + year + '.html" class="default-link">' + year + '</a>';
 		}).join('');
 	}
 

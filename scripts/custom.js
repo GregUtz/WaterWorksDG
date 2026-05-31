@@ -192,7 +192,7 @@ $(document).ready(function(){
 			prefetchOn: 'mouseover',
 			cacheLength: 100,
 			scroll: true, 
-			blacklist: '.default-link' && '.show-gallery',
+			blacklist: '.default-link, .show-gallery',
 			forms: 'contactForm',
 			onStart: {
 				duration:350, // Duration of our animation
