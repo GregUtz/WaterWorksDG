@@ -73,7 +73,7 @@ $(document).ready(function(){
 		});
 		
 		//Toggles
-		$('.toggle-trigger, .toggle-title').on('click', function(){
+		$(document).on('click', '.toggle-trigger, .toggle-title', function(){
 			$(this).parent().toggleClass('toggle-active'); 
 			$(this).parent().find('.toggle-content').slideToggle(250);
 		});

@@ -49,6 +49,18 @@ html[data-theme="light"]{
 		url("../images/course/waterworks-entrance.jpg") center top / cover fixed;
 }
 
+.site-modern.archive-page #page-background{
+	background:
+		linear-gradient(180deg, rgba(10,17,14,0.68), rgba(10,17,14,0.96)),
+		url("../images/course/hole-14-cropped.png") center top / cover fixed;
+}
+
+html[data-theme="light"] .site-modern.archive-page #page-background{
+	background:
+		linear-gradient(180deg, rgba(244,247,241,0.58), rgba(244,247,241,0.94)),
+		url("../images/course/hole-14-cropped.png") center top / cover fixed;
+}
+
 .site-modern .header{
 	height:64px;
 	background:var(--ww-header);
@@ -243,8 +255,8 @@ html[data-theme="light"] .theme-toggle-thumb{
 	min-height:360px;
 	overflow:hidden;
 	background:
-		linear-gradient(90deg, rgba(13,28,20,0.90), rgba(13,28,20,0.42)),
-		url("../images/hole1.jpg") center / cover;
+		linear-gradient(90deg, rgba(13,28,20,0.88), rgba(13,28,20,0.36)),
+		url("../images/course/hole-14-cropped.png") center / cover;
 	border-radius:8px;
 	box-shadow:var(--ww-shadow);
 	color:#fff;
@@ -286,6 +298,12 @@ html[data-theme="light"] .theme-toggle-thumb{
 	color:rgba(255,255,255,0.84);
 	font-size:16px;
 	line-height:1.65;
+}
+
+.archive-note{
+	margin-top:14px !important;
+	color:var(--ww-gold) !important;
+	font-size:13px !important;
 }
 
 .archive-stats{
@@ -731,6 +749,29 @@ html[data-theme="light"] .ace-fund-card{
 	min-width:96px;
 	height:36px;
 	padding:0 12px;
+}
+
+.archive-page .button-disabled{
+	background:var(--ww-soft);
+	border:1px solid var(--ww-line);
+	color:var(--ww-muted);
+	cursor:default;
+	pointer-events:none;
+}
+
+.scorecard-date{
+	display:inline-block;
+	color:var(--ww-muted);
+	font-size:12px;
+	font-weight:900;
+}
+
+.scorecard-note{
+	display:block;
+	color:var(--ww-muted);
+	font-size:11px;
+	font-weight:900;
+	text-transform:uppercase;
 }
 
 .archive-page .copyright-text{

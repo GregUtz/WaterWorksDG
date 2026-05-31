@@ -1,6 +1,12 @@
 # WaterWorksDG
 Small website for WaterWorks Disc Golf
 
+## TODO
+
+- Audit remaining UDisc-era schedule gaps after direct UDisc import. Known
+  pending weeks remain where no Thursday Water Works event was found in UDisc,
+  especially the delayed 2020 season and skipped weeks in 2021-2023.
+
 ## Deploying to the live bucket
 
 The live site appears to be served from the Google Cloud Storage bucket
