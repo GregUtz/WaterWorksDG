@@ -65,12 +65,31 @@ html[data-theme="light"]{
 	color:var(--ww-ink);
 }
 
-.site-modern .header > a:last-child img{
-	max-width:42px;
-	margin:11px auto 0;
+.site-modern .header .header-logo{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:var(--ww-ink);
 }
 
-.site-modern .header span{
+.site-modern .header .header-logo-mark{
+	display:block;
+	width:42px;
+	height:42px;
+	margin:0;
+	line-height:1;
+	background:url("../images/brand/waterworks-mark-dark.svg") center / contain no-repeat;
+	-webkit-mask:none;
+	mask:none;
+}
+
+html[data-theme="light"] .site-modern .header .header-logo-mark{
+	background:url("../images/brand/waterworks-mark-light.svg") center / contain no-repeat;
+	-webkit-mask:none;
+	mask:none;
+}
+
+.site-modern .header > span{
 	text-align:left;
 	line-height:64px;
 	font-family:'Lato', sans-serif;
@@ -720,7 +739,7 @@ html[data-theme="light"] .ace-fund-card{
 }
 
 @media (max-width:1100px){
-	.site-modern .header span{
+	.site-modern .header > span{
 		text-align:center;
 		margin-left:50px;
 		margin-right:50px;
@@ -736,7 +755,7 @@ html[data-theme="light"] .ace-fund-card{
 		padding:14px;
 	}
 
-	.site-modern .header span{
+	.site-modern .header > span{
 		text-align:left;
 		margin-left:50px;
 		margin-right:50px;
@@ -792,7 +811,7 @@ html[data-theme="light"] .ace-fund-card{
 }
 
 @media (max-width:420px){
-	.site-modern .header span{
+	.site-modern .header > span{
 		font-size:13px;
 	}
 
