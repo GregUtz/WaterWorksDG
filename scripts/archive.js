@@ -56,19 +56,6 @@
 		}).join('');
 	}
 
-	function renderStats(season){
-		var linkedWeeks = season.weeks.filter(function(week){ return !!week.url; }).length;
-		var months = {};
-		season.weeks.forEach(function(week){ months[monthName(week.date)] = true; });
-		var thirdValue = season.finalAceFund || linkedWeeks + '/' + season.weeks.length;
-		var thirdLabel = season.finalAceFund ? 'Final ace fund' : 'Score links';
-		return [
-			'<div class="archive-stat"><strong>' + season.weeks.length + '</strong><span>League weeks</span></div>',
-			'<div class="archive-stat"><strong>' + Object.keys(months).length + '</strong><span>Months archived</span></div>',
-			'<div class="archive-stat"><strong>' + thirdValue + '</strong><span>' + thirdLabel + '</span></div>'
-		].join('');
-	}
-
 	function renderToolbar(season){
 		var source = season.scoreSource || 'score';
 		var text = '<p>Open a month below for individual ' + escapeHtml(source) + ' scorecards. The master sheet opens the complete season spreadsheet.</p>';
@@ -170,11 +157,6 @@
 		var nav = document.querySelector('[data-season-nav]');
 		if(nav){
 			nav.innerHTML = renderSeasonNav(data.years, currentYear);
-		}
-
-		var stats = document.querySelector('[data-archive-stats]');
-		if(stats){
-			stats.innerHTML = renderStats(season);
 		}
 
 		var toolbar = document.querySelector('[data-archive-toolbar]');
