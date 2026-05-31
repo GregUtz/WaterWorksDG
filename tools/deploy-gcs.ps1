@@ -75,6 +75,11 @@ if (-not $UseGsutil -and (Test-Command "gcloud")) {
         $exitCode = $LASTEXITCODE
     }
 
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gcloud storage objects update "$Bucket/images/favicon.svg" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
     exit $exitCode
 }
 
@@ -119,6 +124,11 @@ if (Test-Command "gsutil") {
 
     if ($exitCode -eq 0 -and $Deploy) {
         & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/images/brand/*.svg"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/images/favicon.svg"
         $exitCode = $LASTEXITCODE
     }
 
