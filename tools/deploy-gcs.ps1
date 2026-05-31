@@ -59,6 +59,22 @@ if (-not $UseGsutil -and (Test-Command "gcloud")) {
         $exitCode = $LASTEXITCODE
     }
 
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on actively iterated assets."
+        & gcloud storage objects update "$Bucket/styles/*.css" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gcloud storage objects update "$Bucket/scripts/*.js" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gcloud storage objects update "$Bucket/images/brand/*.svg" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
     exit $exitCode
 }
 
@@ -87,6 +103,22 @@ if (Test-Command "gsutil") {
     if ($exitCode -eq 0 -and $Deploy) {
         Write-Host "Setting no-cache metadata on HTML files."
         & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/*.html"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on actively iterated assets."
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/styles/*.css"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/scripts/*.js"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/images/brand/*.svg"
         $exitCode = $LASTEXITCODE
     }
 
