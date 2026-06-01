@@ -466,6 +466,14 @@ html[data-theme="light"] .archive-hero p{
 	border-top:1px solid var(--ww-line);
 }
 
+.previous-week-actions{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	gap:12px;
+	margin-top:16px;
+}
+
 .previous-weeks-dropdown{
 	display:block;
 }
