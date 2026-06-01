@@ -325,10 +325,10 @@ html[data-theme="light"] .archive-hero p{
 
 .home-hero{
 	display:flex;
-	align-items:end;
-	min-height:430px;
+	align-items:center;
+	min-height:0;
 	margin:18px 0 24px;
-	padding:44px;
+	padding:34px 38px;
 	overflow:hidden;
 	background:
 		linear-gradient(90deg, rgba(13,28,20,0.90), rgba(13,28,20,0.38)),
@@ -371,28 +371,6 @@ html[data-theme="light"] .archive-hero p{
 	color:#1d1607;
 }
 
-.league-night-grid{
-	display:grid;
-	grid-template-columns:minmax(0,1.55fr) minmax(220px,0.7fr) minmax(240px,0.85fr);
-	gap:16px;
-	margin-bottom:24px;
-}
-
-.league-update,
-.ace-fund-card,
-.udisc-card{
-	min-height:196px;
-	padding:22px;
-	background:var(--ww-surface);
-	border:1px solid var(--ww-line);
-	border-radius:8px;
-	box-shadow:0 10px 30px rgba(21,32,26,0.06);
-}
-
-.league-update{
-	background:var(--ww-card-gradient);
-}
-
 .home-kicker{
 	display:block;
 	margin-bottom:12px;
@@ -403,66 +381,136 @@ html[data-theme="light"] .archive-hero p{
 	letter-spacing:0;
 }
 
-.league-update h2,
-.udisc-card h3{
-	margin:0 0 12px;
+.league-week-stack{
+	display:grid;
+	gap:14px;
+	margin-bottom:24px;
+}
+
+.week-card{
+	background:var(--ww-surface);
+	border:1px solid var(--ww-line);
+	border-radius:8px;
+	box-shadow:0 10px 30px rgba(21,32,26,0.06);
+}
+
+.upcoming-week-card{
+	display:grid;
+	grid-template-columns:minmax(0,1fr) auto;
+	gap:18px;
+	align-items:center;
+	padding:22px;
+	background:var(--ww-card-gradient);
+}
+
+.week-card h2{
+	margin:0 0 10px;
 	color:var(--ww-ink);
+	font-size:26px;
+	line-height:1.14;
 	font-weight:900;
 }
 
-.league-update h2{
-	font-size:24px;
-	line-height:1.2;
-}
-
-.udisc-card h3{
-	font-size:20px;
-	line-height:1.2;
-}
-
-.league-update p,
-.ace-fund-card p,
-.udisc-card p{
+.week-card p{
 	margin:0;
 	color:var(--ww-muted);
 	line-height:1.55;
 }
 
-.league-note{
-	margin-top:14px!important;
-	padding-top:14px;
-	border-top:1px solid var(--ww-line);
-	font-weight:700;
+.week-card-actions{
+	display:flex;
+	flex-wrap:wrap;
+	gap:10px;
+	justify-content:flex-end;
 }
 
-.ace-fund-card{
-	background:linear-gradient(135deg,#123321,#07100c);
-	color:#fff;
+.previous-week-card{
+	padding:0;
+	overflow:hidden;
 }
 
-html[data-theme="light"] .ace-fund-card{
-	background:var(--ww-green-dark);
+.previous-week-card summary{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:16px;
+	min-height:72px;
+	padding:18px 22px;
+	cursor:pointer;
+	list-style:none;
 }
 
-.ace-fund-card .home-kicker{
-	color:#bfe3ca;
+.previous-week-card summary::-webkit-details-marker{
+	display:none;
 }
 
-.ace-fund-card strong{
+.previous-week-card summary strong{
 	display:block;
-	margin:8px 0 12px;
-	color:#fff;
-	font-size:54px;
-	line-height:1;
+	color:var(--ww-ink);
+	font-size:20px;
+	line-height:1.15;
 	font-weight:900;
 }
 
-.ace-fund-card p{
-	color:rgba(255,255,255,0.78);
+.previous-week-card summary i{
+	color:var(--ww-green);
+	transition:transform 180ms ease;
 }
 
-.udisc-card .button{
-	margin-top:18px;
+.previous-week-card[open] summary i{
+	transform:rotate(180deg);
+}
+
+.previous-week-body{
+	padding:0 22px 20px;
+	border-top:1px solid var(--ww-line);
+}
+
+.previous-weeks-dropdown{
+	display:block;
+}
+
+.previous-weeks-toggle{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:10px;
+	min-height:46px;
+	padding:0 16px;
+	background:var(--ww-surface);
+	border:1px dashed var(--ww-line);
+	border-radius:8px;
+	color:var(--ww-green-dark);
+	font-weight:900;
+	cursor:pointer;
+	list-style:none;
+}
+
+.previous-weeks-toggle::-webkit-details-marker{
+	display:none;
+}
+
+.previous-weeks-toggle strong{
+	color:var(--ww-ink);
+}
+
+.previous-weeks-toggle i{
+	color:var(--ww-green);
+	transition:transform 180ms ease;
+}
+
+.previous-weeks-dropdown[open] > .previous-weeks-toggle i{
+	transform:rotate(180deg);
+}
+
+.previous-weeks-list{
+	display:grid;
+	gap:10px;
+	margin-top:12px;
+}
+
+.previous-weeks-dropdown:not([open]) .previous-weeks-list{
+	display:none;
 }
 
 .home-link{
@@ -817,7 +865,7 @@ html[data-theme="light"] .ace-fund-card{
 	}
 
 	.home-hero{
-		min-height:410px;
+		min-height:0;
 		padding:28px;
 	}
 
@@ -825,11 +873,15 @@ html[data-theme="light"] .ace-fund-card{
 		font-size:36px;
 	}
 
-	.league-night-grid,
+	.upcoming-week-card,
 	.home-band,
 	.course-gallery,
 	.section-heading{
 		grid-template-columns:1fr;
+	}
+
+	.week-card-actions{
+		justify-content:flex-start;
 	}
 
 	.section-heading .home-kicker{
@@ -865,7 +917,7 @@ html[data-theme="light"] .ace-fund-card{
 	}
 
 	.home-hero{
-		min-height:390px;
+		min-height:0;
 		padding:22px;
 	}
 
