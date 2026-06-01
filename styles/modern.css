@@ -567,9 +567,8 @@ html[data-theme="light"] .ace-fund-card{
 }
 
 .archive-toolbar{
-	display:grid;
-	grid-template-columns:minmax(0,1fr) auto;
-	gap:16px;
+	display:flex;
+	justify-content:flex-start;
 	align-items:center;
 	margin-bottom:24px;
 	padding:18px;
@@ -586,10 +585,11 @@ html[data-theme="light"] .ace-fund-card{
 }
 
 .season-nav{
-	display:flex;
-	flex-wrap:wrap;
-	gap:8px;
-	margin:-6px 0 24px;
+	display:grid;
+	grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+	gap:10px;
+	align-items:center;
+	margin:20px 0 0;
 }
 
 .season-nav a,
@@ -597,27 +597,38 @@ html[data-theme="light"] .ace-fund-card{
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	min-width:72px;
-	height:38px;
-	padding:0 14px;
+	gap:8px;
+	min-width:92px;
+	height:42px;
+	padding:0 16px;
 	border:1px solid var(--ww-line);
 	border-radius:6px;
 	background:var(--ww-surface);
 	color:var(--ww-muted);
 	font-weight:900;
+	line-height:1;
 }
 
-.season-nav a{
+.season-nav .season-nav-link{
 	color:var(--ww-green-dark);
 }
 
-.season-nav .is-active{
+.season-nav .season-nav-prev{
+	justify-self:start;
+}
+
+.season-nav .season-nav-next{
+	justify-self:end;
+}
+
+.season-nav .season-nav-current{
+	min-width:86px;
 	background:var(--ww-green-dark);
 	border-color:var(--ww-green-dark);
 	color:#fff;
 }
 
-.season-nav span{
+.season-nav .season-nav-empty{
 	opacity:0.58;
 }
 
