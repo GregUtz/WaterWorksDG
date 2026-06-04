@@ -417,6 +417,10 @@ html[data-theme="light"] .archive-hero p{
 	line-height:1.55;
 }
 
+.week-card p + p{
+	margin-top:8px;
+}
+
 .week-card-actions{
 	display:flex;
 	flex-wrap:wrap;
