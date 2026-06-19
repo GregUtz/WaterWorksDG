@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /sidebar.html
+
+Sitemap: https://www.waterworksdg.com/sitemap.xml

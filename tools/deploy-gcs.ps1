@@ -60,6 +60,12 @@ if (-not $UseGsutil -and (Test-Command "gcloud")) {
     }
 
     if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on crawler files."
+        & gcloud storage objects update "$Bucket/robots.txt" "$Bucket/sitemap.xml" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
         Write-Host "Setting no-cache metadata on actively iterated assets."
         & gcloud storage objects update "$Bucket/styles/*.css" --cache-control="no-cache, max-age=0, must-revalidate"
         $exitCode = $LASTEXITCODE
@@ -108,6 +114,12 @@ if (Test-Command "gsutil") {
     if ($exitCode -eq 0 -and $Deploy) {
         Write-Host "Setting no-cache metadata on HTML files."
         & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/*.html"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting no-cache metadata on crawler files."
+        & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/robots.txt" "$Bucket/sitemap.xml"
         $exitCode = $LASTEXITCODE
     }
 
