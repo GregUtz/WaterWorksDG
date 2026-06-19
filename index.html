@@ -4,15 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="description" content="WaterWorks Disc Golf league hub with uDisc links, season history, weekly updates, and contact information.">
 <title>WaterWorks Disc Golf</title>
-<link rel='icon' href="images/favicon.ico" type='image/x-icon'/>
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="alternate icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="styles/modern.css?v=week12-update-20260618">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
 
-<body>
+<body class="site-modern home-page">
 <div id="page-preloader"></div>
 <div id="page-background"></div>
 <div id="page-transitions"> 
@@ -21,9 +24,9 @@
 <div class="sidebar">
 	<div class="sidebar-scroll">
 		<div class="sidebar-header">
-			<a href="https://paypal.me/gregutz" target="blank" class="font-12"><i class="fa fa-paypal"></i></a>
-			<a href="https://cash.app/$GregUtz" target="blank" class="font-12"><i class="fa fa-usd"></i></a>
-			<a href="https://venmo.com/Greg-Utz" target="blank" class="font-14"><strong><em>V</em></strong></a>
+			<a href="https://paypal.me/gregutz" target="_blank" class="font-12"><i class="fa fa-paypal"></i></a>
+			<a href="https://cash.app/$GregUtz" target="_blank" class="font-12"><i class="fa fa-usd"></i></a>
+			<a href="https://venmo.com/Greg-Utz" target="_blank" class="font-14"><strong><em>V</em></strong></a>
 			<a href="https://www.facebook.com/WaterWorksLeague/" target="_blank" class="font-12"><i class="fa fa-facebook"></i></a>
 			<a href="#" class="font-12 toggle-sidebar"><i class="fa fa-times"></i></a>
 		</div>
@@ -34,15 +37,31 @@
 			<a href="index.html" class="menu-item active-item"><i class="fa fa-home"></i><em>Home</em><i class="fa fa-circle"></i></a>
 			<a href="#" data-submenu="submenu-1" class="menu-item"><i class="fa fa-image"></i><em>Historical Scores</em><i class="fa fa-circle"></i></a>
 				<div id="submenu-1" class="submenu">
-				<a href="/2019.html">2019</a>
-				<a href="#">2018</a>
-				<a href="#">2017</a>
-				<a href="#">2016</a>
-				<a href="#">2015</a>
+				<a href="2025.html" class="default-link">2025</a>
+				<a href="2024.html" class="default-link">2024</a>
+				<a href="2023.html" class="default-link">2023</a>
+				<a href="2022.html" class="default-link">2022</a>
+				<a href="2021.html" class="default-link">2021</a>
+				<a href="2020.html" class="default-link">2020</a>
+				<a href="2019.html" class="default-link">2019</a>
+				<a href="2018.html" class="default-link">2018</a>
+				<a href="2017.html" class="default-link">2017</a>
+				<a href="2016.html" class="default-link">2016</a>
+				<a href="2015.html" class="default-link">2015</a>
+				<a href="2014.html" class="default-link">2014</a>
+				<a href="2013.html" class="default-link">2013</a>
+				<a href="2012.html" class="default-link">2012</a>
 				</div>			
 			<a href="https://docs.google.com/document/d/1Lju1UCrNGwvJb7Phm6deTscYPRVhZV_LrV5Jb_cAbSE/edit?usp=sharing" target="_blank" class="menu-item"><i class="fa fa-pencil"></i><em>How Can I Play?</em><i class="fa fa-circle"></i></a>
 			<a href="mailto:gregutz+WaterWorksDG@gmail.com" target="_blank" class="menu-item"><i class="fa fa-envelope-o"></i><em>Email</em><i class="fa fa-circle"></i></a>
 			<a href="sms:816-805-7406" target="_blank" class="menu-item"><i class="fa fa-commenting-o"></i><em>Text</em><i class="fa fa-circle"></i></a>
+		</div>
+		<div class="sidebar-theme">
+			<span>Theme</span>
+			<button type="button" class="theme-toggle" aria-label="Switch to light mode" aria-pressed="false">
+				<span class="theme-toggle-label">Dark</span>
+				<span class="theme-toggle-track"><span class="theme-toggle-thumb"></span></span>
+			</button>
 		</div>
 	<strong class="sidebar-copyright">Copyright <span class="copyright-year">2020</span>. Utz Upside Ya Head</strong>     
 	</div>
@@ -52,46 +71,225 @@
 <div class="header">
   <a href="#" class="toggle-sidebar"><i class="fa fa-navicon"></i></a>
   <span>WaterWorks Disc Golf</span>
-  <a href="#"><img src="images/ww.png" alt="WaterWorks Disc Golf"></a>
+  <nav class="top-nav" aria-label="Primary navigation">
+    <a href="index.html" class="is-active">Home</a>
+    <a href="2025.html" class="default-link">Historical Scores</a>
+    <a href="https://docs.google.com/document/d/1Lju1UCrNGwvJb7Phm6deTscYPRVhZV_LrV5Jb_cAbSE/edit?usp=sharing" target="_blank">How Can I Play?</a>
+  </nav>
+  <a href="index.html" class="header-logo" aria-label="WaterWorks Disc Golf home"><span class="header-logo-mark"></span></a>
 </div>
 
 <div class="page-content">
   <div class="content">
-    <br>
-    <br>
-    <h4 style="text-align:center;" class="uppercase ultrabold">2020 WaterWorks Summer League</h4>
-    <br>
-    <div class="container">
-      <div class="one-half">
-      <!--<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRm8eel1CuYlXeDpx0kvunMXU6Eard-Icw7OifcocJtOq2MdlBYBdgzYG7khsi2VvVFOvrgIxS0QRsH/pubhtml?widget=true&amp;headers=false" class="button button-s button-dark" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "1398px"}}}'><i class="fa fa-bar-chart"></i>  2019 Master Sheet</a>--></div>
-      <div class="one-half last-column">Ace Fund = <span class="highlight bg-green-dark">$442</span></div>
-    </div>
-    <div class="decoration half-bottom"></div>
-    <div class="toggle">
-      <h5 class="toggle-title ultrabold uppercase">Week 2 - 2020/07/23</h5>
-      <a href="#week2" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
-      <div class="toggle-content" style="display: block;">
-      <p class=" full-bottom">
-        <a href="https://udisc.com/leagues/kcdg-summer/23-Jul-thez" target="blank" class="button button-s button-blue" class="button button-s button-blue">uDisc Check-In</a>
-      <br>
-    </div>
-  </div>    
-  <div class="decoration half-bottom"></div>      
-  <div class="toggle">
-    <h5 class="toggle-title ultrabold uppercase">Week 1 - 2020/07/16</h5>
-    <a href="#week1" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
-    <div class="toggle-content" style="display: none;">
-      <p class=" full-bottom">
-        <a href="https://udisc.com/leagues/kcdg-summer/16-Jul-pEKi" target="blank" class="button button-s button-blue" class="button button-s button-blue">Scores on uDisc</a>
-    </div>
-  </div>
-<!--  
+    <section class="home-hero" aria-labelledby="home-title">
+      <div class="home-hero-content">
+        <h1 id="home-title">2026 WaterWorks League</h1>
+        <p>Welcome to Kansas City Disc Golf's Water Works Thursday Nights</p>
+        <div class="home-actions">
+          <a href="https://docs.google.com/document/d/1Lju1UCrNGwvJb7Phm6deTscYPRVhZV_LrV5Jb_cAbSE/edit?usp=sharing" target="_blank" class="button button-s button-gold"><i class="fa fa-pencil"></i> How Can I Play?</a>
+          <a href="https://venmo.com/Greg-Utz" target="_blank" class="button button-s button-dark"><strong><em>V</em></strong> Venmo</a>
+          <a href="https://paypal.me/gregutz" target="_blank" class="button button-s button-dark"><i class="fa fa-paypal"></i> PayPal</a>
+          <a href="https://cash.app/$GregUtz" target="_blank" class="button button-s button-dark"><i class="fa fa-usd"></i> Cash App</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="league-week-stack" aria-label="Weekly league information">
+      <article class="week-card upcoming-week-card">
+        <div>
+          <span class="home-kicker">Week 12</span>
+          <h2>June 18</h2>
+          <p>This is our Summer Solstice-ish evening. With the most daylight this season, we have a unique league only layout for you. There will be 2x CTP holes, playing for custom WaterWorks dyed Minis.</p>
+          <p>uDisc is up to date with placements, and you can view the entire layout with hole notes in the caddy book/Map view</p>
+        </div>
+        <div class="week-card-actions">
+          <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-YG4mgB" target="_blank" class="button button-s button-dark"><i class="fa fa-check-circle"></i> Open uDisc Event</a>
+        </div>
+      </article>
+
+      <details class="week-card previous-week-card">
+        <summary>
+          <span>
+            <span class="home-kicker">Week 11</span>
+            <strong>June 11</strong>
+          </span>
+          <i class="fa fa-chevron-down"></i>
+        </summary>
+        <div class="previous-week-body">
+          <p>The humidity is moving out, and it looks like a great evening for some Disc Golf. Fresh mowed, the course is looking great. Come see the work put in on Hole #7 teeing area!</p>
+          <div class="previous-week-actions">
+            <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-bm7VF2/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+          </div>
+        </div>
+      </details>
+
+      <details class="previous-weeks-dropdown">
+        <summary class="previous-weeks-toggle">
+          <span>Show earlier weeks</span>
+          <strong>Weeks 1-10</strong>
+          <i class="fa fa-chevron-down"></i>
+        </summary>
+        <div class="previous-weeks-list">
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 10</span>
+                <strong>June 04</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <p>🪾 - Yuge shoutout to KC Parks and Rec for working on the downed trees, limbs and branches. WaterWorks got beat up pretty bad earlier this week, but it's already looking beautiful again.</p>
+              <p>➡️Layout: We're moving a few baskets and seeing how Hole #5 short pad looks. There will be changes from last week's layout.</p>
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-foTdQt/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 9</span>
+                <strong>May 28</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-OsIIho/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 8</span>
+                <strong>May 21</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-L9Mjhn/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 7</span>
+                <strong>May 14</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-SfDOOx/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 6</span>
+                <strong>May 07</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-YkOSPa/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 5</span>
+                <strong>April 30</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-zaoEh1/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 4</span>
+                <strong>April 23</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-j8zf0V/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 3</span>
+                <strong>April 16</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-DW96C9/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 2</span>
+                <strong>April 09</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-ZFlCcA/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+          <details class="week-card previous-week-card">
+            <summary>
+              <span>
+                <span class="home-kicker">Week 1</span>
+                <strong>April 02</strong>
+              </span>
+              <i class="fa fa-chevron-down"></i>
+            </summary>
+            <div class="previous-week-body">
+              <div class="previous-week-actions">
+                <a href="https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-UJOsXR/leaderboard" target="_blank" class="button button-s button-gold"><i class="fa fa-bar-chart"></i> Final Scores</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </details>
+    </section>
+
+    <section class="home-band" aria-label="Course and league links">
+      <a href="2025.html" class="default-link"><i class="fa fa-history"></i> Historical Scores</a>
+      <a href="mailto:gregutz+WaterWorksDG@gmail.com"><i class="fa fa-envelope-o"></i> Email</a>
+      <a href="sms:816-805-7406"><i class="fa fa-commenting-o"></i> Text</a>
+      <a href="https://www.facebook.com/WaterWorksLeague/" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+    </section>
+
+<!-- Legacy 2019 weekly notes retained for data migration.
     <div class="toggle">
         <h5 class="toggle-title ultrabold uppercase">Week 25 - 2019/09/26</h5>
         <a href="#week25" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQuydc2i-sjAcFn4iyuyf-dRQGADDi7lA9BIXzqaNmJbCSqeSvf3VCupUXp1Fdr_BH5H9lEQHW2D2rz/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQuydc2i-sjAcFn4iyuyf-dRQGADDi7lA9BIXzqaNmJbCSqeSvf3VCupUXp1Fdr_BH5H9lEQHW2D2rz/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -106,7 +304,7 @@
         <a href="#week24" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSF_xocZzm6TWBMFqZigtne0URNm-sL0X8d0wqjQ-DpbmpSnpSqlWh53mAZrDkedSfaf8wcRKvpZbBC/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSF_xocZzm6TWBMFqZigtne0URNm-sL0X8d0wqjQ-DpbmpSnpSqlWh53mAZrDkedSfaf8wcRKvpZbBC/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -121,7 +319,7 @@
         <a href="#week23" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4vem7WfK1DgfxrXYkwPl8fOH3ZUKDgrJFDGagyMsQ6D3BnA5ZM92iPJo4XAvr3eFRVnP2L8txxnn3/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4vem7WfK1DgfxrXYkwPl8fOH3ZUKDgrJFDGagyMsQ6D3BnA5ZM92iPJo4XAvr3eFRVnP2L8txxnn3/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -136,7 +334,7 @@
         <a href="#week22" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTR3l4U1Rvxyx0OZ2nLou-TLWb6txM1uemmP890Ow8k8FjsOW-ma_2nq1jPA2olIxH9bPUuGrBVSYpO/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTR3l4U1Rvxyx0OZ2nLou-TLWb6txM1uemmP890Ow8k8FjsOW-ma_2nq1jPA2olIxH9bPUuGrBVSYpO/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -151,7 +349,7 @@
         <a href="#week21" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4_Ff0Eu-WiyzPslWT3oBJXXILri70_5R9cWnTRbXh5ON4b2I-Fdl8TSF-XyAguzkIhFpc2Di1ljsT/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4_Ff0Eu-WiyzPslWT3oBJXXILri70_5R9cWnTRbXh5ON4b2I-Fdl8TSF-XyAguzkIhFpc2Di1ljsT/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -166,7 +364,7 @@
         <a href="#week20" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrp6WtKerBSn9j6gRO05AdYz8IOjFetHdJjooJTxyqGMdPHRmnMvVS1gHxGDutpYwWr335VPbZCRaN/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrp6WtKerBSn9j6gRO05AdYz8IOjFetHdJjooJTxyqGMdPHRmnMvVS1gHxGDutpYwWr335VPbZCRaN/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -181,7 +379,7 @@
         <a href="#week19" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmbJnk0WYO8YTU4nyWva88ub5CidmX_Tv8JhdA2bpvg5IF6yz944Slo7Vqug6rJEXlXsPG8HSXo56i/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmbJnk0WYO8YTU4nyWva88ub5CidmX_Tv8JhdA2bpvg5IF6yz944Slo7Vqug6rJEXlXsPG8HSXo56i/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -196,7 +394,7 @@
         <a href="#week18" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0UbJSk-3-QawEuvucQf0h5mSIP62vSxDs874FFmbEq_KULWnSpCNyglNvAmnX1I7dmW4OkuOJIYpb/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0UbJSk-3-QawEuvucQf0h5mSIP62vSxDs874FFmbEq_KULWnSpCNyglNvAmnX1I7dmW4OkuOJIYpb/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -211,7 +409,7 @@
         <a href="#week17" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRXNa37MvkqsAk-vnwOsZg0LJvTBPVljUjBbdcZFVI1qzRibzJic6bjhKo_txESjIWz3Ag0gK3hsad7/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRXNa37MvkqsAk-vnwOsZg0LJvTBPVljUjBbdcZFVI1qzRibzJic6bjhKo_txESjIWz3Ag0gK3hsad7/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -226,7 +424,7 @@
         <a href="#week16" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQESX896uhgI_PAlWOJe0BqWlY2aHPXjSNuyFRzTmsBZLDwiIJit9T2o46aa4N-WIx57GYx9hAzrUwf/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQESX896uhgI_PAlWOJe0BqWlY2aHPXjSNuyFRzTmsBZLDwiIJit9T2o46aa4N-WIx57GYx9hAzrUwf/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -241,7 +439,7 @@
         <a href="#week15" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSkVM5G4z8DFr1acrdBfuTa5boKPktmRBr8y807h5m9eu0GclOQNg-QwzCdup-ePFCj0Xq6ncSoe7Db/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSkVM5G4z8DFr1acrdBfuTa5boKPktmRBr8y807h5m9eu0GclOQNg-QwzCdup-ePFCj0Xq6ncSoe7Db/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -256,7 +454,7 @@
         <a href="#week14" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiDQlc8cpooxu4DU3NSF466imAIM3xg5Cv4uSC5dDBslP5jIjSjU5wksL9vNrPD2-MqKTHn5VHoyIr/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiDQlc8cpooxu4DU3NSF466imAIM3xg5Cv4uSC5dDBslP5jIjSjU5wksL9vNrPD2-MqKTHn5VHoyIr/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -271,7 +469,7 @@
         <a href="#week13" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRT3cO-yIlNZEI3GRl5LQQAkVl2qPtvL0mBrjSghGnJqYLUvhOe6r49N8d2H-V8XpzUPUV6hcahnY0d/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRT3cO-yIlNZEI3GRl5LQQAkVl2qPtvL0mBrjSghGnJqYLUvhOe6r49N8d2H-V8XpzUPUV6hcahnY0d/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -286,7 +484,7 @@
         <a href="#week12" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjWH_5vz7-Nrk_0TO0uM8ktPgUJdcZ8GYj6McsO-R4M_gKvS8q8oe1ZDawBQ0XR5pM-AkQqRqfRH61/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjWH_5vz7-Nrk_0TO0uM8ktPgUJdcZ8GYj6McsO-R4M_gKvS8q8oe1ZDawBQ0XR5pM-AkQqRqfRH61/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -301,7 +499,7 @@
         <a href="#week11" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJjA4woOl2fhLgQPl9HKqhu3-vau2FiwOgR4PAa_sweUWFutdsgHb6bTbdsw-MjGs-8H1PqdWJpxqx/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJjA4woOl2fhLgQPl9HKqhu3-vau2FiwOgR4PAa_sweUWFutdsgHb6bTbdsw-MjGs-8H1PqdWJpxqx/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -316,7 +514,7 @@
         <a href="#week10" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSguoqjrai8tSCFwxVsnZwvATSHPuIgInCkF6RhFkfTNVlRh5ng1OIrzapuIuXieW1SSVLMwlrlaP-n/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSguoqjrai8tSCFwxVsnZwvATSHPuIgInCkF6RhFkfTNVlRh5ng1OIrzapuIuXieW1SSVLMwlrlaP-n/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -331,7 +529,7 @@
         <a href="#week9" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0AvluNKCh--grOHaNhVP76Z9Arc8_XfP1K5iRmktDNf692BFhDl2EeY4iUX7o-RsrEbmq8IfKnNvk/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0AvluNKCh--grOHaNhVP76Z9Arc8_XfP1K5iRmktDNf692BFhDl2EeY4iUX7o-RsrEbmq8IfKnNvk/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -346,7 +544,7 @@
         <a href="#week8" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTINWMbICoC2pzzt1zqjeg_6E--KOt2opmMEuKpDQFTOw0Dlp5WaAXQZedPbdyN16yMJKQwDOaHktgZ/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTINWMbICoC2pzzt1zqjeg_6E--KOt2opmMEuKpDQFTOw0Dlp5WaAXQZedPbdyN16yMJKQwDOaHktgZ/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -361,7 +559,7 @@
         <a href="#week7" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMrGFHYSaUol21XKbLj8YOoFJUt1Z6oqnlYKJhQy8NjIujws7pZYwvpIU6zNW275c1yhPeWtpYiQW6/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMrGFHYSaUol21XKbLj8YOoFJUt1Z6oqnlYKJhQy8NjIujws7pZYwvpIU6zNW275c1yhPeWtpYiQW6/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -376,7 +574,7 @@
         <a href="#week6" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTAgDa4vqYWpqYhBS5Y50R-ldfThRxLogUybzul6L50yrsqWBEnZqXuj9T_47WKa3VjJDQN3lRwV2v3/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTAgDa4vqYWpqYhBS5Y50R-ldfThRxLogUybzul6L50yrsqWBEnZqXuj9T_47WKa3VjJDQN3lRwV2v3/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -391,7 +589,7 @@
         <a href="#week5" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8ItKUZj7vQ3I9Jk2PtoV1f3gY1-6gMU7qb7lo3nVJ9AfkJ924cxjUnlvldBySBEf6WjcRVjfLscLK/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8ItKUZj7vQ3I9Jk2PtoV1f3gY1-6gMU7qb7lo3nVJ9AfkJ924cxjUnlvldBySBEf6WjcRVjfLscLK/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -406,7 +604,7 @@
         <a href="#week4" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDm14l__eIsDvlOxzZfytiy_bPzoqc3sblonU8xFpZVrmUBySLy7LjWjdvfc4K1a8k9C9BGtoxFDQd/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDm14l__eIsDvlOxzZfytiy_bPzoqc3sblonU8xFpZVrmUBySLy7LjWjdvfc4K1a8k9C9BGtoxFDQd/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -421,7 +619,7 @@
         <a href="#week3" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_648y_08s0dwbk7N2308qgKNIYXlu_VpkM-Fx8eGl56KjYqNTGZ_R64ZKF7PE3WNTSf1BqsLiY628/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_648y_08s0dwbk7N2308qgKNIYXlu_VpkM-Fx8eGl56KjYqNTGZ_R64ZKF7PE3WNTSf1BqsLiY628/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a> 
           <br>
@@ -436,7 +634,7 @@
         <a href="#week2" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLy_ayxFOWohs0juYpSRC--HQKzrkCpkyOXHq-zbMGNxePtSVB05A0yNBXKy6YIgxLvKJC9UynivNe/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLy_ayxFOWohs0juYpSRC--HQKzrkCpkyOXHq-zbMGNxePtSVB05A0yNBXKy6YIgxLvKJC9UynivNe/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -451,7 +649,7 @@
         <a href="#week1" class="toggle-classic toggle-trigger"><i class="fa fa-chevron-down"></i></a>
         <div class="toggle-content" style="display: none;">
         <p class=" full-bottom">
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ6PQ5r28KBLRZOGKpdIPt2MH5wo98YXe9qcnk6Ak455uyn7CiV9ZXA0MXqP4HYtOU8mll1qnfNZRf/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ6PQ5r28KBLRZOGKpdIPt2MH5wo98YXe9qcnk6Ak455uyn7CiV9ZXA0MXqP4HYtOU8mll1qnfNZRf/pubhtml?widget=true&amp;headers=false" class="button button-s button-blue" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "300px"}}}'>
           Scores
           </a>
           <br>
@@ -469,7 +667,7 @@
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/theme.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
-<script src="jquery.fancybox.min.js"></script>
 
 </body>
