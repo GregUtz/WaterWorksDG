@@ -534,6 +534,139 @@ html[data-theme="light"] .archive-hero p{
 	font-weight:900;
 }
 
+.play-hero{
+	display:grid;
+	grid-template-columns:minmax(0,1fr) auto;
+	gap:22px;
+	align-items:end;
+	margin:18px 0 18px;
+	padding:30px 34px;
+	background:var(--ww-card-gradient);
+	border:1px solid var(--ww-line);
+	border-radius:8px;
+	box-shadow:var(--ww-shadow);
+}
+
+.play-hero h1{
+	margin:0 0 12px;
+	color:var(--ww-ink);
+	font-size:42px;
+	line-height:1.05;
+	font-weight:900;
+}
+
+.play-hero p{
+	max-width:680px;
+	margin:0;
+	color:var(--ww-muted);
+	font-size:16px;
+	line-height:1.65;
+}
+
+.play-hero-actions{
+	display:flex;
+	flex-wrap:wrap;
+	gap:10px;
+	justify-content:flex-end;
+}
+
+.play-info-grid{
+	display:grid;
+	grid-template-columns:repeat(3,minmax(0,1fr));
+	gap:14px;
+	margin-bottom:14px;
+}
+
+.play-info-card,
+.play-fees-card,
+.play-payment-card{
+	background:var(--ww-surface);
+	border:1px solid var(--ww-line);
+	border-radius:8px;
+	box-shadow:0 10px 30px rgba(21,32,26,0.06);
+}
+
+.play-info-card{
+	padding:22px;
+}
+
+.play-info-card h2,
+.play-fees-card h2,
+.play-payment-card h2{
+	margin:0 0 10px;
+	color:var(--ww-ink);
+	font-size:22px;
+	line-height:1.15;
+	font-weight:900;
+}
+
+.play-info-card p,
+.play-fees-card p,
+.play-payment-card p{
+	margin:0;
+	color:var(--ww-muted);
+	line-height:1.58;
+}
+
+.play-card-link{
+	display:inline-flex;
+	align-items:center;
+	margin-top:16px;
+	color:var(--ww-green);
+	font-weight:900;
+}
+
+.play-card-link:after{
+	content:"\f105";
+	margin-left:8px;
+	font-family:FontAwesome;
+	font-weight:normal;
+}
+
+.play-fees-card{
+	padding:22px;
+	margin-bottom:14px;
+}
+
+.play-fee-grid{
+	display:grid;
+	grid-template-columns:repeat(3,minmax(0,1fr));
+	gap:12px;
+	margin-top:16px;
+}
+
+.play-fee-grid article{
+	padding:16px;
+	background:var(--ww-soft);
+	border:1px solid var(--ww-line);
+	border-radius:8px;
+}
+
+.play-fee-grid h3{
+	margin:0 0 10px;
+	color:var(--ww-ink);
+	font-size:18px;
+	font-weight:900;
+}
+
+.play-fee-grid p + p{
+	margin-top:6px;
+}
+
+.play-fee-grid strong{
+	color:var(--ww-gold);
+	font-size:20px;
+}
+
+.play-payment-card{
+	display:grid;
+	grid-template-columns:minmax(0,1fr) auto;
+	gap:18px;
+	align-items:center;
+	padding:22px;
+	margin-bottom:14px;
+}
+
 .course-section{
 	margin:24px 0;
 }
@@ -888,12 +1021,31 @@ html[data-theme="light"] .archive-hero p{
 	.upcoming-week-card,
 	.home-band,
 	.course-gallery,
-	.section-heading{
+	.section-heading,
+	.play-hero,
+	.play-info-grid,
+	.play-fee-grid,
+	.play-payment-card{
 		grid-template-columns:1fr;
 	}
 
 	.week-card-actions{
 		justify-content:flex-start;
+	}
+
+	.play-hero-actions{
+		justify-content:flex-start;
+	}
+
+	.play-page .home-actions,
+	.play-hero-actions{
+		width:100%;
+	}
+
+	.play-page .button{
+		width:100%;
+		justify-content:center;
+		text-align:center;
 	}
 
 	.section-heading .home-kicker{
@@ -935,6 +1087,20 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-hero h1{
 		font-size:32px;
+	}
+
+	.play-hero{
+		padding:22px;
+	}
+
+	.play-hero h1{
+		font-size:32px;
+	}
+
+	.play-info-card,
+	.play-fees-card,
+	.play-payment-card{
+		padding:18px;
 	}
 
 	.hero-logo{
