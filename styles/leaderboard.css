@@ -652,12 +652,44 @@ a.history-score:focus{
 	}
 
 	.leaderboard-table{
-		min-width:560px;
+		min-width:0;
+		table-layout:fixed;
 	}
 
 	.leaderboard-table th,
 	.leaderboard-table td{
-		padding:13px 9px;
+		padding:11px 6px;
+	}
+
+	.rank-column,
+	.rank-cell{
+		width:42px;
+	}
+
+	.rank-cell span{
+		width:26px;
+		height:26px;
+		font-size:11px;
+	}
+
+	.numeric-column,
+	.numeric-cell{
+		width:56px;
+	}
+
+	.details-column,
+	.details-cell{
+		width:46px;
+	}
+
+	.player-name{
+		font-size:13px;
+		line-height:1.2;
+		overflow-wrap:anywhere;
+	}
+
+	.average-cell strong{
+		font-size:14px;
 	}
 
 	.desktop-score-column,
