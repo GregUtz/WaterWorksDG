@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="description" content="Follow the 2026 WaterWorks Thursday night disc golf leaderboard, season averages, rounds played, best rounds, and weekly scores.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<title>2026 Leaderboard | WaterWorks Disc Golf</title>
+<link rel="canonical" href="https://www.waterworksdg.com/2026-leaderboard">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WaterWorks Disc Golf">
+<meta property="og:title" content="2026 WaterWorks Leaderboard">
+<meta property="og:description" content="Season averages, rounds played, best rounds, and weekly scores from WaterWorks Thursdays.">
+<meta property="og:url" content="https://www.waterworksdg.com/2026-leaderboard">
+<meta property="og:image" content="https://www.waterworksdg.com/images/course/hole-14-cropped.png">
+<meta property="og:image:alt" content="Water Works Park Disc Golf Course in Kansas City">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026 WaterWorks Leaderboard">
+<meta name="twitter:description" content="Follow the 2026 WaterWorks Thursday night disc golf season.">
+<meta name="twitter:image" content="https://www.waterworksdg.com/images/course/hole-14-cropped.png">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="alternate icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="styles/modern.css?v=leaderboard-20260730">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260730">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+</head>
+
+<body class="site-modern leaderboard-page">
+<div id="page-preloader"></div>
+<div id="page-background"></div>
+<div id="page-transitions">
+
+<div class="sidebar">
+  <div class="sidebar-scroll">
+    <div class="sidebar-header">
+      <a href="https://paypal.me/gregutz" target="_blank" class="font-12"><i class="fa fa-paypal"></i></a>
+      <a href="https://cash.app/$GregUtz" target="_blank" class="font-12"><i class="fa fa-usd"></i></a>
+      <a href="https://venmo.com/Greg-Utz" target="_blank" class="font-14"><strong><em>V</em></strong></a>
+      <a href="https://www.facebook.com/WaterWorksLeague/" target="_blank" class="font-12"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="font-12 toggle-sidebar"><i class="fa fa-times"></i></a>
+    </div>
+    <br><br>
+    <div class="sidebar-menu">
+      <a href="index.html" class="menu-item"><i class="fa fa-home"></i><em>Home</em><i class="fa fa-circle"></i></a>
+      <a href="/2026-leaderboard" class="menu-item active-item"><i class="fa fa-trophy"></i><em>2026 Leaderboard</em><i class="fa fa-circle"></i></a>
+      <a href="2025.html" class="menu-item default-link"><i class="fa fa-history"></i><em>Historical Scores</em><i class="fa fa-circle"></i></a>
+      <a href="how-can-i-play.html" class="menu-item"><i class="fa fa-pencil"></i><em>How Can I Play?</em><i class="fa fa-circle"></i></a>
+      <a href="mailto:gregutz+WaterWorksDG@gmail.com" target="_blank" class="menu-item"><i class="fa fa-envelope-o"></i><em>Email</em><i class="fa fa-circle"></i></a>
+      <a href="sms:816-805-7406" target="_blank" class="menu-item"><i class="fa fa-commenting-o"></i><em>Text</em><i class="fa fa-circle"></i></a>
+    </div>
+    <div class="sidebar-theme">
+      <span>Theme</span>
+      <button type="button" class="theme-toggle" aria-label="Switch to light mode" aria-pressed="false">
+        <span class="theme-toggle-label">Dark</span>
+        <span class="theme-toggle-track"><span class="theme-toggle-thumb"></span></span>
+      </button>
+    </div>
+    <strong class="sidebar-copyright">Copyright <span class="copyright-year">2026</span>. Utz Upside Ya Head</strong>
+  </div>
+</div>
+
+<div class="header">
+  <a href="#" class="toggle-sidebar"><i class="fa fa-navicon"></i></a>
+  <span>WaterWorks Disc Golf</span>
+  <nav class="top-nav" aria-label="Primary navigation">
+    <a href="index.html">Home</a>
+    <a href="/2026-leaderboard" class="is-active">Leaderboard</a>
+    <a href="2025.html" class="default-link">Historical Scores</a>
+    <a href="how-can-i-play.html">How Can I Play?</a>
+  </nav>
+  <a href="index.html" class="header-logo" aria-label="WaterWorks Disc Golf home"><span class="header-logo-mark"></span></a>
+</div>
+
+<div class="page-content">
+  <main class="content leaderboard-content">
+    <section class="leaderboard-hero" aria-labelledby="leaderboard-title">
+      <div>
+        <span class="leaderboard-eyebrow">WaterWorks Thursdays</span>
+        <h1 id="leaderboard-title">2026 Leaderboard</h1>
+        <p>Season participation and scoring at Water Works Park. Players with the most weeks rise to the top, with scoring average breaking ties.</p>
+      </div>
+      <div class="leaderboard-source">
+        <span class="source-status" data-source-status aria-live="polite">Loading master sheet…</span>
+        <a href="https://docs.google.com/spreadsheets/d/1oCMTdCbgs93lBp6-4-KCucyrlVXxTCQIg5Da-u1cg9s/edit?usp=sharing" target="_blank" rel="noopener" class="button button-s button-dark"><i class="fa fa-table"></i> Open Master Sheet</a>
+      </div>
+    </section>
+
+    <section class="leaderboard-stats" aria-label="Season summary" data-season-stats></section>
+
+    <section class="podium-section" aria-labelledby="podium-title">
+      <div class="leaderboard-section-heading">
+        <div>
+          <span class="leaderboard-eyebrow">Weeks played</span>
+          <h2 id="podium-title">Participation leaders</h2>
+        </div>
+        <p>Average score breaks ties</p>
+      </div>
+      <div class="podium" data-podium></div>
+    </section>
+
+    <section class="leaderboard-panel" aria-labelledby="standings-title">
+      <div class="leaderboard-section-heading standings-heading">
+        <div>
+          <span class="leaderboard-eyebrow">Full field</span>
+          <h2 id="standings-title">Player standings</h2>
+        </div>
+        <p data-results-summary aria-live="polite"></p>
+      </div>
+
+      <form class="leaderboard-controls" data-leaderboard-controls>
+        <label class="leaderboard-search">
+          <span>Find a player</span>
+          <span class="leaderboard-input-wrap"><i class="fa fa-search"></i><input type="search" id="player-search" placeholder="Search by name" autocomplete="off"></span>
+        </label>
+        <label>
+          <span>Minimum weeks</span>
+          <select id="minimum-rounds">
+            <option value="0" selected>All players</option>
+            <option value="3">3+ weeks</option>
+            <option value="5">5+ weeks</option>
+            <option value="10">10+ weeks</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort by</span>
+          <select id="leaderboard-sort">
+            <option value="rounds" selected>Weeks played</option>
+            <option value="average">Average score</option>
+            <option value="best">Best round</option>
+            <option value="latest">Latest round</option>
+            <option value="name">Player name</option>
+          </select>
+        </label>
+        <button type="reset" class="leaderboard-reset">Reset</button>
+      </form>
+
+      <div class="leaderboard-table-wrap">
+        <table class="leaderboard-table">
+          <thead>
+            <tr>
+              <th scope="col" class="rank-column">Rank</th>
+              <th scope="col">Player</th>
+              <th scope="col" class="numeric-column">Weeks</th>
+              <th scope="col" class="numeric-column">Average</th>
+              <th scope="col" class="numeric-column desktop-score-column">Best</th>
+              <th scope="col" class="numeric-column desktop-score-column">Latest</th>
+              <th scope="col" class="trend-column">Recent form</th>
+              <th scope="col" class="details-column"><span class="screen-reader-text">Details</span></th>
+            </tr>
+          </thead>
+          <tbody data-leaderboard-body>
+            <tr><td colspan="8" class="leaderboard-empty">Loading standings…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <noscript><p class="leaderboard-empty">JavaScript is required to sort and explore the leaderboard. The full data remains available in the master sheet.</p></noscript>
+    </section>
+
+    <p class="leaderboard-footnote">Weeks played and scoring averages come from the 2026 master sheet. A dash means no recorded score for that week. This view does not change the source sheet.</p>
+  </main>
+  <p class="copyright-text">Copyright <span class="copyright-year">2026</span>. Utz Upside Ya Head</p>
+</div>
+</div>
+
+<script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260730"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260730"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/theme.js"></script>
+</body>
+</html>

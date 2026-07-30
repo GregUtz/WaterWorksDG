@@ -16,7 +16,7 @@ function Test-Command {
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $repoRoot
 
-$excludePattern = "(^|[\\/])\.git([\\/]|$)|(^|[\\/])tools([\\/]|$)|(^|[\\/])server\..*\.log$|(^|[\\/])\.gitignore$|(^|[\\/])README\.md$|(^|[\\/])test1?\.html$"
+$excludePattern = "(^|[\\/])\.git([\\/]|$)|(^|[\\/])tools([\\/]|$)|(^|[\\/])server\..*\.log$|(^|[\\/])\.gitignore$|(^|[\\/])README\.md$|(^|[\\/])test1?\.html$|(^|[\\/])names\.txt$"
 
 Write-Host "WaterWorksDG deploy"
 Write-Host "Source: $repoRoot"
@@ -56,6 +56,12 @@ if (-not $UseGsutil -and (Test-Command "gcloud")) {
     if ($exitCode -eq 0 -and $Deploy) {
         Write-Host "Setting no-cache metadata on HTML files."
         & gcloud storage objects update "$Bucket/*.html" --cache-control="no-cache, max-age=0, must-revalidate"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting HTML metadata on the leaderboard route."
+        & gcloud storage objects update "$Bucket/2026-leaderboard" --content-type="text/html" --cache-control="no-cache, max-age=0, must-revalidate"
         $exitCode = $LASTEXITCODE
     }
 
@@ -114,6 +120,12 @@ if (Test-Command "gsutil") {
     if ($exitCode -eq 0 -and $Deploy) {
         Write-Host "Setting no-cache metadata on HTML files."
         & gsutil -m setmeta -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/*.html"
+        $exitCode = $LASTEXITCODE
+    }
+
+    if ($exitCode -eq 0 -and $Deploy) {
+        Write-Host "Setting HTML metadata on the leaderboard route."
+        & gsutil setmeta -h "Content-Type:text/html" -h "Cache-Control:no-cache, max-age=0, must-revalidate" "$Bucket/2026-leaderboard"
         $exitCode = $LASTEXITCODE
     }
 
