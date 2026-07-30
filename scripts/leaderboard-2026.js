@@ -8,7 +8,6 @@
 
   var sourceStatus = document.querySelector('[data-source-status]');
   var statsRoot = document.querySelector('[data-season-stats]');
-  var podiumRoot = document.querySelector('[data-podium]');
   var tableBody = document.querySelector('[data-leaderboard-body]');
   var resultsSummary = document.querySelector('[data-results-summary]');
   var controls = document.querySelector('[data-leaderboard-controls]');
@@ -16,6 +15,25 @@
   var minimumRounds = document.getElementById('minimum-rounds');
   var sortSelect = document.getElementById('leaderboard-sort');
   var data = normalizeData(snapshot);
+  var eventUrlsByDate = {
+    '4/2/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-UJOsXR/leaderboard',
+    '4/9/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-ZFlCcA/leaderboard',
+    '4/16/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-DW96C9/leaderboard',
+    '4/23/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-j8zf0V/leaderboard',
+    '4/30/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-zaoEh1/leaderboard',
+    '5/7/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-YkOSPa/leaderboard',
+    '5/14/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-SfDOOx/leaderboard',
+    '5/21/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-L9Mjhn/leaderboard',
+    '5/28/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-OsIIho/leaderboard',
+    '6/4/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-foTdQt/leaderboard',
+    '6/11/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-bm7VF2/leaderboard',
+    '6/18/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-YG4mgB/leaderboard',
+    '7/2/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-NczbJd/leaderboard',
+    '7/9/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Lv4NIl/leaderboard',
+    '7/16/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-MESu8q/leaderboard',
+    '7/23/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-TgFwtc/leaderboard',
+    '7/30/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-RtpEfc/leaderboard'
+  };
 
   function escapeHtml(value) {
     return String(value == null ? '' : value)
@@ -33,6 +51,9 @@
       dates: raw.dates || [],
       players: (raw.players || []).map(function (player) {
         var scores = (player.scores || []).map(function (score) {
+          if (String(score).trim().toUpperCase() === 'DNF') {
+            return 'DNF';
+          }
           return Number.isFinite(Number(score)) && score !== null && score !== '' ? Number(score) : null;
         });
         var numericScores = scores.filter(Number.isFinite);
@@ -55,9 +76,13 @@
     return values.reduce(function (sum, value) { return sum + value; }, 0) / values.length;
   }
 
+  function countsAsAttendance(score) {
+    return Number.isFinite(score) || score === 'DNF';
+  }
+
   function lastCompletedIndex() {
     for (var index = data.dates.length - 1; index >= 0; index -= 1) {
-      if (data.players.some(function (player) { return Number.isFinite(player.scores[index]); })) {
+      if (data.players.some(function (player) { return countsAsAttendance(player.scores[index]); })) {
         return index;
       }
     }
@@ -102,7 +127,7 @@
         var latestIndex = lastCompletedIndex();
         var aLatest = a.scores[latestIndex];
         var bLatest = b.scores[latestIndex];
-        return (aLatest == null ? Infinity : aLatest) - (bLatest == null ? Infinity : bLatest) || a.average - b.average;
+        return (Number.isFinite(aLatest) ? aLatest : Infinity) - (Number.isFinite(bLatest) ? bLatest : Infinity) || a.average - b.average;
       }
       if (sortKey === 'name') {
         return a.name.localeCompare(b.name);
@@ -116,7 +141,7 @@
     var qualified = data.players.filter(function (player) { return player.weeks >= 5; }).length;
     var leader = rankedPlayers(data.players, 'rounds')[0];
     var weeklyAttendance = data.dates.map(function (_, index) {
-      return data.players.filter(function (player) { return Number.isFinite(player.scores[index]); }).length;
+      return data.players.filter(function (player) { return countsAsAttendance(player.scores[index]); }).length;
     }).filter(function (attendance) { return attendance > 0; });
     var averageAttendance = average(weeklyAttendance);
     var cards = [
@@ -133,29 +158,29 @@
     }
   }
 
-  function renderPodium() {
-    var leaders = rankedPlayers(data.players, 'rounds').slice(0, 3);
-    var order = [leaders[1], leaders[0], leaders[2]];
-    podiumRoot.innerHTML = order.map(function (player, displayIndex) {
-      if (!player) {
-        return '';
-      }
-      var place = displayIndex === 1 ? 1 : (displayIndex === 0 ? 2 : 3);
-      return '<article class="podium-card podium-place-' + place + '">' +
-        '<span class="podium-rank">' + place + '</span>' +
-        '<div><h3>' + escapeHtml(player.name) + '</h3><p><strong>' + player.weeks + '</strong> weeks · ' + player.average.toFixed(1) + ' average</p></div>' +
-        '</article>';
-    }).join('');
-  }
-
   function renderScoreHistory(player) {
     var latestIndex = lastCompletedIndex();
     return data.dates.slice(0, latestIndex + 1).map(function (date, index) {
-      var score = player.scores[index];
-      return '<span class="history-score' + (Number.isFinite(score) ? '' : ' no-score') + '">' +
-        '<small>' + escapeHtml(shortDate(date)) + '</small>' +
-        '<strong>' + (Number.isFinite(score) ? score : '—') + '</strong>' +
-        '</span>';
+      return { date: date, index: index };
+    }).filter(function (week) {
+      return data.players.some(function (seasonPlayer) {
+        return countsAsAttendance(seasonPlayer.scores[week.index]);
+      });
+    }).map(function (week) {
+      var score = player.scores[week.index];
+      var eventUrl = eventUrlsByDate[week.date];
+      var isDnf = score === 'DNF';
+      var scoreClass = Number.isFinite(score) || isDnf ? '' : ' no-score';
+      if (isDnf) {
+        scoreClass += ' dnf';
+      }
+      var scoreMarkup = '<small>' + escapeHtml(shortDate(week.date)) + '</small>' +
+        '<strong>' + (Number.isFinite(score) ? score : (isDnf ? 'DNF' : '—')) + '</strong>';
+      if (!eventUrl) {
+        return '<span class="history-score' + scoreClass + '">' + scoreMarkup + '</span>';
+      }
+      return '<a class="history-score' + scoreClass + '" href="' + escapeHtml(eventUrl) + '" target="_blank" rel="noopener" aria-label="Open the ' + escapeHtml(shortDate(week.date)) + ' UDisc event for ' + escapeHtml(player.name) + '">' +
+        scoreMarkup + '</a>';
     }).join('');
   }
 
@@ -207,87 +232,18 @@
     detail.hidden = expanded;
   }
 
-  function parseCsv(text) {
-    var rows = [];
-    var row = [];
-    var value = '';
-    var quoted = false;
-    for (var index = 0; index < text.length; index += 1) {
-      var character = text[index];
-      if (quoted) {
-        if (character === '"' && text[index + 1] === '"') {
-          value += '"';
-          index += 1;
-        } else if (character === '"') {
-          quoted = false;
-        } else {
-          value += character;
-        }
-      } else if (character === '"') {
-        quoted = true;
-      } else if (character === ',') {
-        row.push(value);
-        value = '';
-      } else if (character === '\n') {
-        row.push(value.replace(/\r$/, ''));
-        rows.push(row);
-        row = [];
-        value = '';
-      } else {
-        value += character;
-      }
-    }
-    if (value || row.length) {
-      row.push(value);
-      rows.push(row);
-    }
-    return rows;
-  }
-
-  function csvToData(text) {
-    var rows = parseCsv(text);
-    if (!rows.length || rows[0][0] !== 'Player') {
-      throw new Error('Unexpected master sheet response');
-    }
-    var dates = rows[0].slice(3).filter(Boolean);
-    var players = rows.slice(1).filter(function (row) { return row[0]; }).map(function (row) {
-      return {
-        name: row[0],
-        weeks: Number(row[1]) || 0,
-        average: Number(row[2]) || null,
-        scores: dates.map(function (_, index) {
-          var value = row[index + 3];
-          return value && value !== '*' && Number.isFinite(Number(value)) ? Number(value) : null;
-        })
-      };
-    });
-    return normalizeData({ spreadsheetId: snapshot.spreadsheetId, dates: dates, players: players, syncedAt: new Date().toISOString() });
-  }
-
   function refreshView() {
     renderStats();
-    renderPodium();
     renderTable();
   }
 
-  function loadLiveData() {
-    var url = 'https://docs.google.com/spreadsheets/d/' + encodeURIComponent(snapshot.spreadsheetId) + '/gviz/tq?tqx=out:csv&sheet=' + encodeURIComponent(snapshot.sheet) + '&range=A1:AC963&_=' + Date.now();
-    return fetch(url, { cache: 'no-store' })
-      .then(function (response) {
-        if (!response.ok) {
-          throw new Error('Master sheet unavailable');
-        }
-        return response.text();
-      })
-      .then(function (text) {
-        data = csvToData(text);
-        sourceStatus.textContent = 'Live master sheet · updated now';
-        sourceStatus.classList.add('is-live');
-        refreshView();
-      })
-      .catch(function () {
-        sourceStatus.textContent = 'Master sheet snapshot · Jul 30';
-      });
+  function snapshotDate(value) {
+    var parts = String(value || '').split('-');
+    if (parts.length !== 3) {
+      return value || 'recently';
+    }
+    var date = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   }
 
   controls.addEventListener('input', renderTable);
@@ -302,7 +258,6 @@
     }
   });
 
-  sourceStatus.textContent = 'Master sheet snapshot · Jul 30';
+  sourceStatus.textContent = 'Last Updated: ' + snapshotDate(data.syncedAt);
   refreshView();
-  loadLiveData();
 }());

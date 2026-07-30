@@ -24,7 +24,7 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/modern.css?v=leaderboard-20260730">
-<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260730">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260730-5">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
 
@@ -45,7 +45,7 @@
     <br><br>
     <div class="sidebar-menu">
       <a href="index.html" class="menu-item"><i class="fa fa-home"></i><em>Home</em><i class="fa fa-circle"></i></a>
-      <a href="/2026-leaderboard" class="menu-item active-item"><i class="fa fa-trophy"></i><em>2026 Leaderboard</em><i class="fa fa-circle"></i></a>
+      <a href="/2026-leaderboard" class="menu-item active-item default-link"><i class="fa fa-trophy"></i><em>2026 Leaderboard</em><i class="fa fa-circle"></i></a>
       <a href="2025.html" class="menu-item default-link"><i class="fa fa-history"></i><em>Historical Scores</em><i class="fa fa-circle"></i></a>
       <a href="how-can-i-play.html" class="menu-item"><i class="fa fa-pencil"></i><em>How Can I Play?</em><i class="fa fa-circle"></i></a>
       <a href="mailto:gregutz+WaterWorksDG@gmail.com" target="_blank" class="menu-item"><i class="fa fa-envelope-o"></i><em>Email</em><i class="fa fa-circle"></i></a>
@@ -67,7 +67,7 @@
   <span>WaterWorks Disc Golf</span>
   <nav class="top-nav" aria-label="Primary navigation">
     <a href="index.html">Home</a>
-    <a href="/2026-leaderboard" class="is-active">Leaderboard</a>
+    <a href="/2026-leaderboard" class="is-active default-link">Leaderboard</a>
     <a href="2025.html" class="default-link">Historical Scores</a>
     <a href="how-can-i-play.html">How Can I Play?</a>
   </nav>
@@ -90,21 +90,10 @@
 
     <section class="leaderboard-stats" aria-label="Season summary" data-season-stats></section>
 
-    <section class="podium-section" aria-labelledby="podium-title">
-      <div class="leaderboard-section-heading">
-        <div>
-          <span class="leaderboard-eyebrow">Weeks played</span>
-          <h2 id="podium-title">Participation leaders</h2>
-        </div>
-        <p>Average score breaks ties</p>
-      </div>
-      <div class="podium" data-podium></div>
-    </section>
-
     <section class="leaderboard-panel" aria-labelledby="standings-title">
       <div class="leaderboard-section-heading standings-heading">
         <div>
-          <span class="leaderboard-eyebrow">Full field</span>
+          <span class="leaderboard-eyebrow">2026</span>
           <h2 id="standings-title">Player standings</h2>
         </div>
         <p data-results-summary aria-live="polite"></p>
@@ -165,8 +154,8 @@
 </div>
 </div>
 
-<script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260730"></script>
-<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260730"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260730-2"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260730-3"></script>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>
