@@ -601,6 +601,10 @@ a.history-score:focus{
 		padding:14px;
 	}
 
+	.leaderboard-stats{
+		display:none;
+	}
+
 	.leaderboard-hero{
 		margin-top:10px;
 		padding:26px 22px;
@@ -652,18 +656,50 @@ a.history-score:focus{
 	}
 
 	.leaderboard-table{
+		display:block;
+		width:100%;
 		min-width:0;
-		table-layout:fixed;
 	}
 
-	.leaderboard-table th,
-	.leaderboard-table td{
-		padding:11px 6px;
+	.leaderboard-table thead{
+		display:none;
 	}
 
-	.rank-column,
+	.leaderboard-table tbody{
+		display:block;
+		width:100%;
+	}
+
+	.leaderboard-table .player-row{
+		display:grid;
+		grid-template-columns:36px minmax(0,1fr) 42px 54px 40px;
+		align-items:center;
+		width:100%;
+	}
+
+	.leaderboard-table .player-row > th,
+	.leaderboard-table .player-row > td{
+		width:auto;
+		min-width:0;
+		padding:11px 4px;
+	}
+
+	.leaderboard-table .player-detail-row{
+		display:block;
+		width:100%;
+	}
+
+	.leaderboard-table .player-detail-row[hidden]{
+		display:none;
+	}
+
+	.leaderboard-table .player-detail-row > td{
+		display:block;
+		width:auto;
+	}
+
 	.rank-cell{
-		width:42px;
+		text-align:left !important;
 	}
 
 	.rank-cell span{
@@ -672,20 +708,14 @@ a.history-score:focus{
 		font-size:11px;
 	}
 
-	.numeric-column,
-	.numeric-cell{
-		width:56px;
-	}
-
-	.details-column,
-	.details-cell{
-		width:46px;
-	}
-
 	.player-name{
+		display:block;
+		width:100%;
 		font-size:13px;
 		line-height:1.2;
-		overflow-wrap:anywhere;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
 	}
 
 	.average-cell strong{
