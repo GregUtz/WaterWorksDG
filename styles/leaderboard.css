@@ -475,6 +475,30 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	background:var(--ww-soft);
 }
 
+.cut-line-divider td{
+	padding:0;
+	background:var(--ww-surface);
+	border-bottom:1px solid var(--ww-line);
+}
+
+.cut-line-label{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:16px;
+	padding:10px 14px;
+	border-top:2px solid var(--ww-gold);
+	color:var(--ww-muted);
+	font-size:10px;
+	font-weight:900;
+	letter-spacing:0.04em;
+	text-transform:uppercase;
+}
+
+.cut-line-label strong{
+	color:var(--ww-gold);
+}
+
 .player-detail-content{
 	padding:18px 24px 22px 92px;
 }
@@ -715,6 +739,23 @@ a.history-score:focus{
 	.leaderboard-table .player-detail-row > td{
 		display:block;
 		width:auto;
+	}
+
+	.leaderboard-table .cut-line-divider{
+		display:block;
+		width:100%;
+	}
+
+	.leaderboard-table .cut-line-divider > td{
+		display:block;
+		width:auto;
+	}
+
+	.cut-line-label{
+		align-items:flex-start;
+		flex-direction:column;
+		gap:3px;
+		padding:9px 10px;
 	}
 
 	.rank-column,

@@ -24,7 +24,7 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/modern.css?v=leaderboard-20260730">
-<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260730-8">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260731-3">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
 
@@ -114,9 +114,10 @@
           </select>
         </label>
         <label>
-          <span>Sort by</span>
+          <span>Leaderboard view</span>
           <select id="leaderboard-sort">
-            <option value="rounds" selected>Weeks played</option>
+            <option value="cut" selected>Championship</option>
+            <option value="rounds">Weeks played</option>
             <option value="average">Average score</option>
             <option value="best">Best round</option>
             <option value="latest">Latest round</option>
@@ -148,14 +149,14 @@
       <noscript><p class="leaderboard-empty">JavaScript is required to sort and explore the leaderboard. The full data remains available in the master sheet.</p></noscript>
     </section>
 
-    <p class="leaderboard-footnote">Weeks played and scoring averages come from the 2026 master sheet. A dash means no recorded score for that week. This view does not change the source sheet.</p>
+    <p class="leaderboard-footnote">The default Championship view places players with at least ⅔ of weeks played participation above the qualifying line and ranks them by scoring average. Everyone else follows by weeks played, then average.</p>
   </main>
   <p class="copyright-text">Copyright <span class="copyright-year">2026</span>. Utz Upside Ya Head</p>
 </div>
 </div>
 
 <script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260731-1"></script>
-<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260730-3"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260731-4"></script>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>

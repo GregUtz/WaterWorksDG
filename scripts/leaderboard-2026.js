@@ -57,9 +57,10 @@
           return Number.isFinite(Number(score)) && score !== null && score !== '' ? Number(score) : null;
         });
         var numericScores = scores.filter(Number.isFinite);
+        var attendanceWeeks = scores.filter(countsAsAttendance).length;
         return {
           name: player.name,
-          weeks: Number(player.weeks) || numericScores.length,
+          weeks: attendanceWeeks || Number(player.weeks) || numericScores.length,
           average: Number(player.average) || average(numericScores),
           scores: scores,
           best: numericScores.length ? Math.min.apply(null, numericScores) : null,
@@ -87,6 +88,19 @@
       }
     }
     return -1;
+  }
+
+  function completedWeekCount() {
+    return data.dates.reduce(function (total, _, index) {
+      var completed = data.players.some(function (player) {
+        return countsAsAttendance(player.scores[index]);
+      });
+      return total + (completed ? 1 : 0);
+    }, 0);
+  }
+
+  function qualifyingWeekCutoff() {
+    return Math.ceil(completedWeekCount() * 0.66);
   }
 
   function shortDate(value) {
@@ -117,6 +131,18 @@
 
   function rankedPlayers(players, sortKey) {
     return players.slice().sort(function (a, b) {
+      if (sortKey === 'cut') {
+        var cutoff = qualifyingWeekCutoff();
+        var aQualified = a.weeks >= cutoff;
+        var bQualified = b.weeks >= cutoff;
+        if (aQualified !== bQualified) {
+          return aQualified ? -1 : 1;
+        }
+        if (aQualified) {
+          return a.average - b.average || b.weeks - a.weeks || a.name.localeCompare(b.name);
+        }
+        return b.weeks - a.weeks || a.average - b.average || a.name.localeCompare(b.name);
+      }
       if (sortKey === 'rounds') {
         return b.weeks - a.weeks || a.average - b.average || a.name.localeCompare(b.name);
       }
@@ -193,6 +219,11 @@
     });
     var players = rankedPlayers(filtered, sortKey);
     var latestIndex = lastCompletedIndex();
+    var completedWeeks = completedWeekCount();
+    var cutLineWeeks = qualifyingWeekCutoff();
+    var aboveLineCount = players.filter(function (player) {
+      return player.weeks >= cutLineWeeks;
+    }).length;
 
     resultsSummary.textContent = players.length + (players.length === 1 ? ' player' : ' players');
     if (!players.length) {
@@ -205,7 +236,9 @@
       var latest = latestIndex >= 0 ? player.scores[latestIndex] : null;
       var detailId = 'player-detail-' + index;
       var lastFive = player.numericScores.slice(-5);
-      return '<tr class="player-row">' +
+      var cutLine = sortKey === 'cut' && index === aboveLineCount ?
+        '<tr class="cut-line-divider"><td colspan="8"><div class="cut-line-label"><strong>Qualifying line</strong><span>⅔ Minimum · ' + cutLineWeeks + ' of ' + completedWeeks + ' weeks required</span></div></td></tr>' : '';
+      return cutLine + '<tr class="player-row">' +
         '<td class="rank-cell"><span>' + (index + 1) + '</span></td>' +
         '<th scope="row"><button type="button" class="player-name" data-detail-toggle="' + detailId + '" aria-expanded="false" aria-controls="' + detailId + '">' + escapeHtml(player.name) + '</button></th>' +
         '<td class="numeric-cell"><strong>' + player.weeks + '</strong></td>' +
