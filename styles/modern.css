@@ -558,7 +558,6 @@ html[data-theme="light"] .archive-hero p{
 
 .previous-week-body{
 	padding:0 22px 20px;
-	border-top:1px solid var(--ww-line);
 }
 
 .previous-week-actions{
@@ -1156,10 +1155,16 @@ html[data-theme="light"] .archive-hero p{
 		margin-top:8px;
 	}
 
+	.home-page .home-primary-actions .button{
+		height:50px;
+		padding:0 12px;
+		font-size:12px;
+	}
+
 	.home-page .home-payment-actions .button{
-		height:36px;
+		height:42px;
 		padding:0 8px;
-		font-size:10px;
+		font-size:11px;
 	}
 
 	.upcoming-week-card,
@@ -1234,7 +1239,7 @@ html[data-theme="light"] .archive-hero p{
 	}
 
 	.home-page .home-hero-title{
-		font-size:clamp(19px,6.2vw,27px);
+		font-size:clamp(23px,7vw,29px);
 		letter-spacing:0.025em;
 	}
 
@@ -1248,12 +1253,12 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-page .home-primary-actions .button{
 		padding:0 4px;
-		font-size:11px;
+		font-size:12px;
 	}
 
 	.home-page .home-payment-actions .button{
 		padding:0 6px;
-		font-size:10px;
+		font-size:11px;
 	}
 
 	.play-hero{
@@ -1286,6 +1291,11 @@ html[data-theme="light"] .archive-hero p{
 @media (max-width:340px){
 	.home-page .home-primary-actions .button{
 		padding:0 2px;
+		font-size:10px;
+	}
+
+	.home-page .home-payment-actions .button{
+		padding:0 3px;
 		font-size:10px;
 	}
 
