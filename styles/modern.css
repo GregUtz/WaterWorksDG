@@ -1062,6 +1062,45 @@ html[data-theme="light"] .archive-hero p{
 	color:var(--ww-muted);
 }
 
+@media (min-width:761px){
+	.home-page .home-hero{
+		min-height:230px;
+		padding:44px 48px;
+	}
+
+	.home-page .home-hero-content{
+		max-width:640px;
+	}
+
+	.home-page .home-hero-title,
+	.home-page .home-hero-actions{
+		width:min(100%,620px);
+	}
+
+	.home-page .home-hero-title{
+		font-size:clamp(44px,4vw,54px);
+		line-height:0.98;
+	}
+
+	.home-page .home-hero-actions{
+		margin-top:26px;
+	}
+
+	.home-page .home-primary-actions{
+		gap:12px;
+	}
+
+	.home-page .home-primary-actions .button{
+		height:50px;
+		padding:0 20px;
+		font-size:13px;
+	}
+
+	.home-page .home-payment-actions{
+		display:none;
+	}
+}
+
 @media (max-width:1100px){
 	.site-modern .header > span{
 		text-align:center;
