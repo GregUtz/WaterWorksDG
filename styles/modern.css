@@ -424,6 +424,26 @@ html[data-theme="light"] .archive-hero p{
 	color:#1d1607;
 }
 
+.home-page .home-leaderboard-button,
+.home-page .home-leaderboard-button:hover,
+.home-page .home-leaderboard-button:active{
+	color:#fff;
+	text-shadow:0 1px 2px rgba(42,26,0,0.55);
+}
+
+.home-page .home-play-button{
+	background:#a8d8e8;
+	border-color:#a8d8e8;
+	color:#102733;
+}
+
+.home-page .home-play-button:hover,
+.home-page .home-play-button:active{
+	background:#c0e5f1;
+	border-color:#c0e5f1;
+	color:#102733;
+}
+
 .home-kicker{
 	display:block;
 	margin-bottom:12px;
