@@ -350,6 +350,19 @@ html[data-theme="light"] .archive-hero p{
 	color:#fff;
 }
 
+.home-page .home-hero-title{
+	width:min(100%,560px);
+	margin:0;
+	color:#8fe0aa;
+	font-size:clamp(20px,3.1vw,30px);
+	line-height:1.05;
+	font-weight:900;
+	letter-spacing:0.075em;
+	text-align:center;
+	text-shadow:0 2px 14px rgba(75,199,117,0.24);
+	white-space:nowrap;
+}
+
 .home-hero p{
 	max-width:620px;
 	margin:0;
@@ -1175,6 +1188,11 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-hero h1{
 		font-size:32px;
+	}
+
+	.home-page .home-hero-title{
+		font-size:20px;
+		letter-spacing:0.045em;
 	}
 
 	.home-page .home-primary-actions{
