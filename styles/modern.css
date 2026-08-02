@@ -339,7 +339,9 @@ html[data-theme="light"] .archive-hero p{
 }
 
 .home-hero-content{
+	width:100%;
 	max-width:680px;
+	min-width:0;
 }
 
 .home-hero h1{
@@ -1191,7 +1193,7 @@ html[data-theme="light"] .archive-hero p{
 	}
 
 	.home-page .home-hero-title{
-		font-size:20px;
+		font-size:clamp(17px,6vw,20px);
 		letter-spacing:0.045em;
 	}
 
@@ -1237,6 +1239,18 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-hero p{
 		font-size:14px;
+	}
+}
+
+@media (max-width:340px){
+	.home-page .home-primary-actions .button{
+		padding:0 2px;
+		font-size:10px;
+	}
+
+	.home-page .home-hero-actions .button i,
+	.home-page .home-hero-actions .button strong{
+		margin-right:4px;
 	}
 }
 
