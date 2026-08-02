@@ -365,6 +365,59 @@ html[data-theme="light"] .archive-hero p{
 	margin-top:24px;
 }
 
+.home-page .home-hero-actions{
+	display:grid;
+	width:min(100%,560px);
+	gap:9px;
+}
+
+.home-primary-actions,
+.home-payment-actions{
+	display:grid;
+	margin:0;
+}
+
+.home-primary-actions{
+	grid-template-columns:repeat(2,minmax(0,1fr));
+	gap:10px;
+}
+
+.home-payment-actions{
+	grid-template-columns:repeat(3,minmax(0,1fr));
+	gap:8px;
+}
+
+.home-page .home-hero-actions .button{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	margin:0;
+	line-height:1.15;
+	font-weight:900;
+	text-transform:none;
+	white-space:nowrap;
+}
+
+.home-page .home-primary-actions .button{
+	height:44px;
+	padding:0 14px;
+	font-size:12px;
+}
+
+.home-page .home-payment-actions .button{
+	height:32px;
+	padding:0 9px;
+	border-width:1px;
+	font-size:10px;
+	opacity:0.88;
+}
+
+.home-page .home-hero-actions .button i,
+.home-page .home-hero-actions .button strong{
+	margin-right:6px;
+}
+
 .home-page .button-gold{
 	background:var(--ww-gold);
 	border-color:var(--ww-gold);
@@ -1018,6 +1071,10 @@ html[data-theme="light"] .archive-hero p{
 		font-size:36px;
 	}
 
+	.home-page .home-hero-actions{
+		width:100%;
+	}
+
 	.upcoming-week-card,
 	.home-band,
 	.course-gallery,
@@ -1087,6 +1144,24 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-hero h1{
 		font-size:32px;
+	}
+
+	.home-page .home-primary-actions{
+		gap:7px;
+	}
+
+	.home-page .home-payment-actions{
+		gap:6px;
+	}
+
+	.home-page .home-primary-actions .button{
+		padding:0 4px;
+		font-size:11px;
+	}
+
+	.home-page .home-payment-actions .button{
+		padding:0 5px;
+		font-size:9px;
 	}
 
 	.play-hero{
