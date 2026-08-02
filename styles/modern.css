@@ -1115,3 +1115,8 @@ html[data-theme="light"] .archive-hero p{
 		font-size:14px;
 	}
 }
+
+.site-modern .button,
+.site-modern .leaderboard-reset{
+	border-radius:6px;
+}
