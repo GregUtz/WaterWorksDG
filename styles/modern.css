@@ -432,16 +432,17 @@ html[data-theme="light"] .archive-hero p{
 }
 
 .home-page .home-play-button{
-	background:#a8d8e8;
-	border-color:#a8d8e8;
-	color:#102733;
+	background:rgba(168,216,232,0.32);
+	border-color:rgba(168,216,232,0.68);
+	color:#edfaff;
+	backdrop-filter:blur(6px);
 }
 
 .home-page .home-play-button:hover,
 .home-page .home-play-button:active{
-	background:#c0e5f1;
-	border-color:#c0e5f1;
-	color:#102733;
+	background:rgba(168,216,232,0.46);
+	border-color:rgba(192,229,241,0.88);
+	color:#fff;
 }
 
 .home-kicker{
