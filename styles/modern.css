@@ -1069,11 +1069,13 @@ html[data-theme="light"] .archive-hero p{
 
 	.home-page .home-hero-content{
 		max-width:640px;
+		margin-inline:auto;
 	}
 
 	.home-page .home-hero-title,
 	.home-page .home-hero-actions{
 		width:min(100%,620px);
+		margin-inline:auto;
 	}
 
 	.home-page .home-hero-title{

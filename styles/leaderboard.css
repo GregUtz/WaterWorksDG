@@ -45,9 +45,12 @@ html[data-theme="light"] .leaderboard-page #page-background{
 .leaderboard-hero h1{
 	margin:0 0 12px;
 	color:#fff;
+	font-family:"Oswald","Arial Narrow",sans-serif;
 	font-size:46px;
-	font-weight:900;
+	font-weight:500;
+	letter-spacing:0.035em;
 	line-height:1;
+	text-transform:uppercase;
 }
 
 .leaderboard-hero p{
@@ -147,6 +150,13 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	font-size:25px;
 	font-weight:900;
 	line-height:1.1;
+}
+
+.standings-heading h2{
+	font-family:"Oswald","Arial Narrow",sans-serif;
+	font-weight:500;
+	letter-spacing:0.035em;
+	text-transform:uppercase;
 }
 
 .leaderboard-section-heading p{
@@ -642,9 +652,8 @@ a.history-score:focus{
 		font-size:14px;
 	}
 
-	.leaderboard-source .button{
-		width:100%;
-		text-align:center;
+	.leaderboard-source{
+		display:none;
 	}
 
 	.podium{

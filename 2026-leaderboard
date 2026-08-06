@@ -24,8 +24,8 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/modern.css?v=rounded-buttons-20260802">
-<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260802-1">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260806-mobile-master-sheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
 </head>
 
 <body class="site-modern leaderboard-page">
@@ -80,10 +80,8 @@
       <div>
         <span class="leaderboard-eyebrow">WaterWorks Thursdays</span>
         <h1 id="leaderboard-title">2026 Leaderboard</h1>
-        <p>Season participation and scoring at Water Works Park. Players with the most weeks rise to the top, with scoring average breaking ties.</p>
       </div>
       <div class="leaderboard-source">
-        <span class="source-status" data-source-status aria-live="polite">Loading master sheet…</span>
         <a href="https://docs.google.com/spreadsheets/d/1oCMTdCbgs93lBp6-4-KCucyrlVXxTCQIg5Da-u1cg9s/edit?usp=sharing" target="_blank" rel="noopener" class="button button-s button-dark"><i class="fa fa-table"></i> Open Master Sheet</a>
       </div>
     </section>
@@ -156,7 +154,7 @@
 </div>
 
 <script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260731-1"></script>
-<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260731-4"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260806-no-update-status"></script>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>

@@ -6,7 +6,6 @@
     return;
   }
 
-  var sourceStatus = document.querySelector('[data-source-status]');
   var statsRoot = document.querySelector('[data-season-stats]');
   var tableBody = document.querySelector('[data-leaderboard-body]');
   var resultsSummary = document.querySelector('[data-results-summary]');
@@ -270,15 +269,6 @@
     renderTable();
   }
 
-  function snapshotDate(value) {
-    var parts = String(value || '').split('-');
-    if (parts.length !== 3) {
-      return value || 'recently';
-    }
-    var date = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
-    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-  }
-
   controls.addEventListener('input', renderTable);
   controls.addEventListener('change', renderTable);
   controls.addEventListener('reset', function () {
@@ -291,6 +281,5 @@
     }
   });
 
-  sourceStatus.textContent = 'Last Updated: ' + snapshotDate(data.syncedAt);
   refreshView();
 }());
