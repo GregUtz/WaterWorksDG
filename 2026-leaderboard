@@ -24,7 +24,7 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/modern.css?v=rounded-buttons-20260802">
-<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260806-mobile-master-sheet">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260807-desktop-headers-no-latest">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
 </head>
 
@@ -118,7 +118,6 @@
             <option value="rounds">Weeks played</option>
             <option value="average">Average score</option>
             <option value="best">Best round</option>
-            <option value="latest">Latest round</option>
             <option value="name">Player name</option>
           </select>
         </label>
@@ -130,17 +129,16 @@
           <thead>
             <tr>
               <th scope="col" class="rank-column">Rank</th>
-              <th scope="col">Player</th>
+              <th scope="col" class="player-column">Player</th>
               <th scope="col" class="numeric-column">Weeks</th>
               <th scope="col" class="numeric-column">Average</th>
               <th scope="col" class="numeric-column desktop-score-column">Best</th>
-              <th scope="col" class="numeric-column desktop-score-column">Latest</th>
               <th scope="col" class="trend-column">Recent form</th>
               <th scope="col" class="details-column"><span class="screen-reader-text">Details</span></th>
             </tr>
           </thead>
           <tbody data-leaderboard-body>
-            <tr><td colspan="8" class="leaderboard-empty">Loading standings…</td></tr>
+            <tr><td colspan="7" class="leaderboard-empty">Loading standings…</td></tr>
           </tbody>
         </table>
       </div>
@@ -153,8 +151,8 @@
 </div>
 </div>
 
-<script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260731-1"></script>
-<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260806-no-update-status"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026-data.js?v=20260806-week19"></script>
+<script type="text/javascript" src="scripts/leaderboard-2026.js?v=20260807-form2-no-latest"></script>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>

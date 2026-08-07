@@ -420,6 +420,13 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	width:140px;
 }
 
+@media (min-width:701px){
+	.leaderboard-table thead .player-column,
+	.leaderboard-table thead .trend-column{
+		text-align:center;
+	}
+}
+
 .trend-cell small{
 	display:block;
 	margin-top:4px;

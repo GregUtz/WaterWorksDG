@@ -31,7 +31,8 @@
     '7/9/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-Lv4NIl/leaderboard',
     '7/16/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-MESu8q/leaderboard',
     '7/23/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-TgFwtc/leaderboard',
-    '7/30/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-RtpEfc/leaderboard'
+    '7/30/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-RtpEfc/leaderboard',
+    '8/6/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-QzQeuA/leaderboard'
   };
 
   function escapeHtml(value) {
@@ -98,8 +99,10 @@
     }, 0);
   }
 
+  // 2026 qualifying schedule after the cancelled June 25 league:
+  // calendar weeks 19–26 require 12, 13, 14, 14, 15, 16, 16, and 17 counted appearances.
   function qualifyingWeekCutoff() {
-    return Math.ceil(completedWeekCount() * 0.66);
+    return Math.ceil(completedWeekCount() * 2 / 3);
   }
 
   function shortDate(value) {
@@ -113,19 +116,19 @@
 
   function recentForm(player) {
     var scores = player.numericScores;
-    if (scores.length < 6) {
+    if (scores.length < 4) {
       return { className: 'building', label: 'Building', detail: scores.length + ' rounds' };
     }
-    var recent = average(scores.slice(-3));
-    var prior = average(scores.slice(-6, -3));
+    var recent = average(scores.slice(-2));
+    var prior = average(scores.slice(-4, -2));
     var delta = recent - prior;
     if (delta <= -0.5) {
-      return { className: 'improving', label: '↓ ' + Math.abs(delta).toFixed(1), detail: 'lower last 3' };
+      return { className: 'improving', label: '↓ ' + Math.abs(delta).toFixed(1), detail: 'lower last 2' };
     }
     if (delta >= 0.5) {
-      return { className: 'cooling', label: '↑ ' + delta.toFixed(1), detail: 'higher last 3' };
+      return { className: 'cooling', label: '↑ ' + delta.toFixed(1), detail: 'higher last 2' };
     }
-    return { className: 'steady', label: 'Steady', detail: 'last 3 rounds' };
+    return { className: 'steady', label: 'Steady', detail: 'last 2 rounds' };
   }
 
   function rankedPlayers(players, sortKey) {
@@ -147,12 +150,6 @@
       }
       if (sortKey === 'best') {
         return (a.best == null ? Infinity : a.best) - (b.best == null ? Infinity : b.best) || a.average - b.average;
-      }
-      if (sortKey === 'latest') {
-        var latestIndex = lastCompletedIndex();
-        var aLatest = a.scores[latestIndex];
-        var bLatest = b.scores[latestIndex];
-        return (Number.isFinite(aLatest) ? aLatest : Infinity) - (Number.isFinite(bLatest) ? bLatest : Infinity) || a.average - b.average;
       }
       if (sortKey === 'name') {
         return a.name.localeCompare(b.name);
@@ -217,7 +214,6 @@
       return player.weeks >= min && (!query || player.name.toLowerCase().indexOf(query) !== -1);
     });
     var players = rankedPlayers(filtered, sortKey);
-    var latestIndex = lastCompletedIndex();
     var completedWeeks = completedWeekCount();
     var cutLineWeeks = qualifyingWeekCutoff();
     var aboveLineCount = players.filter(function (player) {
@@ -226,28 +222,26 @@
 
     resultsSummary.textContent = players.length + (players.length === 1 ? ' player' : ' players');
     if (!players.length) {
-      tableBody.innerHTML = '<tr><td colspan="8" class="leaderboard-empty">No players match those filters.</td></tr>';
+      tableBody.innerHTML = '<tr><td colspan="7" class="leaderboard-empty">No players match those filters.</td></tr>';
       return;
     }
 
     tableBody.innerHTML = players.map(function (player, index) {
       var form = recentForm(player);
-      var latest = latestIndex >= 0 ? player.scores[latestIndex] : null;
       var detailId = 'player-detail-' + index;
       var lastFive = player.numericScores.slice(-5);
       var cutLine = sortKey === 'cut' && index === aboveLineCount ?
-        '<tr class="cut-line-divider"><td colspan="8"><div class="cut-line-label"><strong>Qualifying line</strong><span>⅔ Minimum · ' + cutLineWeeks + ' of ' + completedWeeks + ' weeks required</span></div></td></tr>' : '';
+        '<tr class="cut-line-divider"><td colspan="7"><div class="cut-line-label"><strong>Qualifying line</strong><span>⅔ Minimum · ' + cutLineWeeks + ' of ' + completedWeeks + ' weeks required</span></div></td></tr>' : '';
       return cutLine + '<tr class="player-row">' +
         '<td class="rank-cell"><span>' + (index + 1) + '</span></td>' +
         '<th scope="row"><button type="button" class="player-name" data-detail-toggle="' + detailId + '" aria-expanded="false" aria-controls="' + detailId + '">' + escapeHtml(player.name) + '</button></th>' +
         '<td class="numeric-cell"><strong>' + player.weeks + '</strong></td>' +
         '<td class="numeric-cell average-cell"><strong>' + player.average.toFixed(1) + '</strong></td>' +
         '<td class="numeric-cell desktop-score-column">' + (player.best == null ? '—' : player.best) + '</td>' +
-        '<td class="numeric-cell desktop-score-column">' + (latest == null ? '—' : latest) + '</td>' +
         '<td class="trend-cell"><span class="form-badge ' + form.className + '">' + form.label + '</span><small>' + form.detail + '</small></td>' +
         '<td class="details-cell"><button type="button" class="details-button" data-detail-toggle="' + detailId + '" aria-expanded="false" aria-controls="' + detailId + '" aria-label="Show weekly scores for ' + escapeHtml(player.name) + '"><i class="fa fa-chevron-down"></i></button></td>' +
         '</tr>' +
-        '<tr class="player-detail-row" id="' + detailId + '" hidden><td colspan="8"><div class="player-detail-content">' +
+        '<tr class="player-detail-row" id="' + detailId + '" hidden><td colspan="7"><div class="player-detail-content">' +
           '<div class="player-detail-summary"><strong>Recent scores</strong><span>' + escapeHtml(lastFive.join(' · ') || 'No scores') + '</span></div>' +
           '<div class="score-history" aria-label="Weekly scores for ' + escapeHtml(player.name) + '">' + renderScoreHistory(player) + '</div>' +
         '</div></td></tr>';
