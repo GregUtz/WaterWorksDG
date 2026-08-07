@@ -303,12 +303,15 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	position:absolute;
 	top:50%;
 	left:13px;
+	z-index:1;
 	color:var(--ww-muted);
+	pointer-events:none;
 	transform:translateY(-50%);
 }
 
 .leaderboard-input-wrap input{
 	padding-left:36px;
+	text-align:left;
 }
 
 .leaderboard-reset{
@@ -421,6 +424,15 @@ html[data-theme="light"] .leaderboard-page #page-background{
 }
 
 @media (min-width:701px){
+	.leaderboard-table{
+		border:1px solid var(--ww-line);
+	}
+
+	.leaderboard-table .numeric-column,
+	.leaderboard-table .numeric-cell{
+		width:136px;
+	}
+
 	.leaderboard-table thead .player-column,
 	.leaderboard-table thead .trend-column{
 		text-align:center;
@@ -496,6 +508,10 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	padding:0;
 	background:var(--ww-surface);
 	border-bottom:1px solid var(--ww-line);
+}
+
+.leaderboard-table .cut-line-divider:hover > td{
+	background:var(--ww-surface);
 }
 
 .cut-line-label{
@@ -699,6 +715,7 @@ a.history-score:focus{
 		display:block;
 		width:100%;
 		min-width:0;
+		border:0;
 	}
 
 	.leaderboard-table thead{
@@ -708,7 +725,7 @@ a.history-score:focus{
 
 	.leaderboard-table thead tr{
 		display:grid;
-		grid-template-columns:36px minmax(0,1fr) 42px 54px 40px;
+		grid-template-columns:36px minmax(0,1fr) 54px 66px 40px;
 		width:100%;
 		border-bottom:1px solid var(--ww-line);
 	}
@@ -729,7 +746,7 @@ a.history-score:focus{
 
 	.leaderboard-table .player-row{
 		display:grid;
-		grid-template-columns:36px minmax(0,1fr) 42px 54px 40px;
+		grid-template-columns:36px minmax(0,1fr) 54px 66px 40px;
 		align-items:center;
 		width:100%;
 		border-bottom:1px solid var(--ww-line);
@@ -741,6 +758,18 @@ a.history-score:focus{
 		min-width:0;
 		padding:11px 4px;
 		border-bottom:0;
+	}
+
+	.leaderboard-table tbody .player-row:hover,
+	.leaderboard-table tbody .player-row:focus-within{
+		background-color:rgba(116,200,146,0.055);
+	}
+
+	.leaderboard-table tbody .player-row:hover > th,
+	.leaderboard-table tbody .player-row:hover > td,
+	.leaderboard-table tbody .player-row:focus-within > th,
+	.leaderboard-table tbody .player-row:focus-within > td{
+		background-color:transparent;
 	}
 
 	.leaderboard-table .player-detail-row{
@@ -768,15 +797,23 @@ a.history-score:focus{
 	}
 
 	.cut-line-label{
-		align-items:flex-start;
-		flex-direction:column;
-		gap:3px;
+		align-items:center;
+		flex-direction:row;
+		gap:8px;
 		padding:9px 10px;
+		font-size:9px;
+		letter-spacing:0.02em;
+		white-space:nowrap;
 	}
 
 	.rank-column,
 	.rank-cell{
 		text-align:left !important;
+	}
+
+	.leaderboard-table .numeric-column,
+	.leaderboard-table .numeric-cell{
+		text-align:center !important;
 	}
 
 	.rank-cell span{
@@ -791,8 +828,13 @@ a.history-score:focus{
 		font-size:13px;
 		line-height:1.2;
 		overflow:hidden;
+		text-align:center;
 		text-overflow:ellipsis;
 		white-space:nowrap;
+	}
+
+	.leaderboard-table thead .player-column{
+		text-align:center;
 	}
 
 	.average-cell strong{

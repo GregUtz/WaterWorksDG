@@ -24,7 +24,7 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/modern.css?v=rounded-buttons-20260802">
-<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260807-desktop-headers-no-latest">
+<link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260807-mobile-player-center">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
 </head>
 
