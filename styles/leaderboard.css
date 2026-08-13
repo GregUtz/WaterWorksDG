@@ -257,6 +257,10 @@ html[data-theme="light"] .leaderboard-page #page-background{
 	padding:24px 26px 18px;
 }
 
+.leaderboard-filter-toggle{
+	display:none;
+}
+
 .leaderboard-controls{
 	display:grid;
 	grid-template-columns:minmax(240px,1fr) 180px 180px auto;
@@ -702,9 +706,78 @@ a.history-score:focus{
 		padding:20px 18px 14px;
 	}
 
+	.leaderboard-filter-toggle{
+		display:grid;
+		grid-template-columns:auto minmax(0,1fr) auto;
+		align-items:center;
+		gap:10px;
+		width:calc(100% - 28px);
+		margin:0 14px 14px;
+		padding:12px 13px;
+		background:var(--ww-soft);
+		border:1px solid var(--ww-line);
+		border-radius:8px;
+		color:var(--ww-ink);
+		font-family:'Lato',sans-serif;
+		text-align:left;
+		cursor:pointer;
+	}
+
+	.leaderboard-filter-toggle-icon{
+		display:grid;
+		place-items:center;
+		width:32px;
+		height:32px;
+		background:var(--ww-gold);
+		border-radius:7px;
+		color:#1d1607;
+	}
+
+	.leaderboard-filter-toggle-copy{
+		display:block;
+		min-width:0;
+	}
+
+	.leaderboard-filter-toggle-copy strong,
+	.leaderboard-filter-toggle-copy small{
+		display:block;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+
+	.leaderboard-filter-toggle-copy strong{
+		font-size:12px;
+		font-weight:900;
+		letter-spacing:0.02em;
+		text-transform:uppercase;
+	}
+
+	.leaderboard-filter-toggle-copy small{
+		margin-top:3px;
+		color:var(--ww-muted);
+		font-size:10px;
+		font-weight:700;
+	}
+
+	.leaderboard-filter-toggle-chevron{
+		color:var(--ww-green);
+		transition:transform 180ms ease;
+	}
+
+	.leaderboard-filter-toggle[aria-expanded="true"] .leaderboard-filter-toggle-chevron{
+		transform:rotate(180deg);
+	}
+
 	.leaderboard-controls{
 		grid-template-columns:1fr;
+		margin-top:0;
 		padding:14px 18px;
+		border-top:1px solid var(--ww-line);
+	}
+
+	.leaderboard-controls[hidden]{
+		display:none;
 	}
 
 	.leaderboard-search{

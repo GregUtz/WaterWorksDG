@@ -13,6 +13,9 @@
   var searchInput = document.getElementById('player-search');
   var minimumRounds = document.getElementById('minimum-rounds');
   var sortSelect = document.getElementById('leaderboard-sort');
+  var filterToggle = document.querySelector('[data-leaderboard-filter-toggle]');
+  var filterSummary = document.querySelector('[data-leaderboard-filter-summary]');
+  var mobileControlsQuery = window.matchMedia('(max-width: 700px)');
   var data = normalizeData(snapshot);
   var eventUrlsByDate = {
     '4/2/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-UJOsXR/leaderboard',
@@ -261,13 +264,53 @@
   function refreshView() {
     renderStats();
     renderTable();
+    updateFilterSummary();
   }
 
-  controls.addEventListener('input', renderTable);
-  controls.addEventListener('change', renderTable);
-  controls.addEventListener('reset', function () {
-    window.setTimeout(renderTable, 0);
+  function updateFilterSummary() {
+    var query = searchInput.value.trim();
+    var playerLabel = query ? '“' + query + '”' : 'All players';
+    var minimumLabel = minimumRounds.options[minimumRounds.selectedIndex].text;
+    var viewLabel = sortSelect.options[sortSelect.selectedIndex].text;
+    var labels = [playerLabel];
+    if (minimumRounds.value !== '0') {
+      labels.push(minimumLabel);
+    }
+    labels.push(viewLabel);
+    filterSummary.textContent = labels.join(' · ');
+  }
+
+  function setFiltersExpanded(expanded) {
+    filterToggle.setAttribute('aria-expanded', String(expanded));
+    controls.hidden = mobileControlsQuery.matches && !expanded;
+  }
+
+  function syncResponsiveFilters() {
+    setFiltersExpanded(!mobileControlsQuery.matches);
+  }
+
+  controls.addEventListener('input', function () {
+    renderTable();
+    updateFilterSummary();
   });
+  controls.addEventListener('change', function () {
+    renderTable();
+    updateFilterSummary();
+  });
+  controls.addEventListener('reset', function () {
+    window.setTimeout(function () {
+      renderTable();
+      updateFilterSummary();
+    }, 0);
+  });
+  filterToggle.addEventListener('click', function () {
+    setFiltersExpanded(filterToggle.getAttribute('aria-expanded') !== 'true');
+  });
+  if (mobileControlsQuery.addEventListener) {
+    mobileControlsQuery.addEventListener('change', syncResponsiveFilters);
+  } else {
+    mobileControlsQuery.addListener(syncResponsiveFilters);
+  }
   tableBody.addEventListener('click', function (event) {
     var button = event.target.closest('[data-detail-toggle]');
     if (button) {
@@ -275,5 +318,6 @@
     }
   });
 
+  syncResponsiveFilters();
   refreshView();
 }());
