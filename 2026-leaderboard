@@ -23,7 +23,7 @@
 <link rel="alternate icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
-<link rel="stylesheet" type="text/css" href="styles/modern.css?v=rounded-buttons-20260802">
+<link rel="stylesheet" type="text/css" href="styles/modern.css?v=header-home-link-20260813">
 <link rel="stylesheet" type="text/css" href="styles/leaderboard.css?v=20260813-mobile-filters">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
 </head>
@@ -44,7 +44,7 @@
     </div>
     <br><br>
     <div class="sidebar-menu">
-      <a href="index.html" class="menu-item"><i class="fa fa-home"></i><em>Home</em><i class="fa fa-circle"></i></a>
+			<a href="index.html" class="menu-item default-link"><i class="fa fa-home"></i><em>Home</em><i class="fa fa-circle"></i></a>
       <a href="/2026-leaderboard" class="menu-item active-item default-link"><i class="fa fa-trophy"></i><em>2026 Leaderboard</em><i class="fa fa-circle"></i></a>
       <a href="2025.html" class="menu-item default-link"><i class="fa fa-history"></i><em>Historical Scores</em><i class="fa fa-circle"></i></a>
       <a href="how-can-i-play.html" class="menu-item"><i class="fa fa-pencil"></i><em>How Can I Play?</em><i class="fa fa-circle"></i></a>
@@ -64,14 +64,14 @@
 
 <div class="header">
   <a href="#" class="toggle-sidebar"><i class="fa fa-navicon"></i></a>
-  <span>WaterWorks Disc Golf</span>
+  <a href="index.html" class="header-title-link default-link">WaterWorks Disc Golf</a>
   <nav class="top-nav" aria-label="Primary navigation">
-    <a href="index.html">Home</a>
+    <a href="index.html" class="default-link">Home</a>
     <a href="/2026-leaderboard" class="is-active default-link">Leaderboard</a>
     <a href="2025.html" class="default-link">Historical Scores</a>
     <a href="how-can-i-play.html">How Can I Play?</a>
   </nav>
-  <a href="index.html" class="header-logo" aria-label="WaterWorks Disc Golf home"><span class="header-logo-mark"></span></a>
+  <a href="index.html" class="header-logo default-link" aria-label="WaterWorks Disc Golf home"><span class="header-logo-mark"></span></a>
 </div>
 
 <div class="page-content">
