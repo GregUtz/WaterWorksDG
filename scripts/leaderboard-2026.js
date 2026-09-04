@@ -38,7 +38,8 @@
     '8/6/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-QzQeuA/leaderboard',
     '8/13/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-lGoJMi/leaderboard',
     '8/20/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-ARTbO6/leaderboard',
-    '8/27/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-EIZ2An/leaderboard'
+    '8/27/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-EIZ2An/leaderboard',
+    '9/3/2026': 'https://udisc.com/events/kcdg-summer-weeklies-water-works-thursdays-nuJxnt/leaderboard'
   };
 
   function escapeHtml(value) {
