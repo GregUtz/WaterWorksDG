@@ -16,7 +16,7 @@ function Test-Command {
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $repoRoot
 
-$excludePattern = "(^|[\\/])\.git([\\/]|$)|(^|[\\/])tools([\\/]|$)|(^|[\\/])server\..*\.log$|(^|[\\/])\.gitignore$|(^|[\\/])README\.md$|(^|[\\/])test1?\.html$|(^|[\\/])names\.txt$"
+$excludePattern = "(^|[\\/])\.git([\\/]|$)|(^|[\\/])tools([\\/]|$)|(^|[\\/])tmp([\\/]|$)|(^|[\\/])server\..*\.log$|(^|[\\/])\.gitignore$|(^|[\\/])README\.md$|(^|[\\/])test1?\.html$|(^|[\\/])names\.txt$"
 
 Write-Host "WaterWorksDG deploy"
 Write-Host "Source: $repoRoot"
